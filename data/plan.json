@@ -1,0 +1,106 @@
+{
+  "race": {
+    "name": "Halve Marathon",
+    "date": "2026-06-07",
+    "distanceKm": 21.1,
+    "targetFinish": "1:55-1:59",
+    "stretchGoal": "sub-1:50",
+    "raceStrategy": "Eerste 5 km @ 5:50/km (bewust ingehouden) · 6-15 km @ 5:35-5:40/km · laatste 6 km alles wat er nog in zit. Doel: 1:58 finish."
+  },
+  "athlete": {
+    "location": "Maaswijkstraat 118, Scheveningen",
+    "baseline": "24 apr: 12 km @ 5:45/km (HR 145, aeroob). Aerobic basis goed, frequentie is bottleneck.",
+    "daysPerWeek": 3
+  },
+  "paceTargets": {
+    "easyPaceSecPerKm": [380, 410],
+    "hmPaceSecPerKm": [330, 345],
+    "thresholdSecPerKm": [310, 325]
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "focus": "Frequentie vastleggen, basis bevestigen",
+      "totalKm": 24,
+      "sessions": [
+        { "date": "2026-04-29", "type": "easy+strides", "distanceKm": 6, "description": "6 km easy @ 6:00-6:20/km + 4×100m strides aan einde", "routeId": "boulevard-pier-8" },
+        { "date": "2026-05-01", "type": "easy", "distanceKm": 5, "description": "5 km easy recovery @ 6:30/km, neuzen ademen", "routeId": "scheveningse-bosjes-5" },
+        { "date": "2026-05-03", "type": "long", "distanceKm": 13, "description": "13 km easy long run @ 5:50-6:10/km — bouwt voort op je 12K van vandaag", "routeId": "strand-zuid-11" }
+      ]
+    },
+    {
+      "week": 2,
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "focus": "Eerste HM-pace sessie",
+      "totalKm": 27,
+      "sessions": [
+        { "date": "2026-05-06", "type": "tempo", "distanceKm": 7, "description": "1,5 km W-up · 4×1km @ 5:25-5:35/km met 400m jog herstel · cooldown", "routeId": "boulevard-pier-8" },
+        { "date": "2026-05-08", "type": "easy", "distanceKm": 5, "description": "5 km easy recovery @ 6:30/km", "routeId": "scheveningse-bosjes-5" },
+        { "date": "2026-05-10", "type": "long", "distanceKm": 15, "description": "15 km easy @ 5:55-6:10/km", "routeId": "wassenaar-strand-15" }
+      ]
+    },
+    {
+      "week": 3,
+      "start": "2026-05-11",
+      "end": "2026-05-17",
+      "focus": "Pace endurance opbouwen",
+      "totalKm": 31,
+      "checkpoint": "Go/No-Go: 17 km met laatste 4 km @ 5:30/km comfortabel? Ja → sub-2 op koers. Nee → doel naar 2:05.",
+      "sessions": [
+        { "date": "2026-05-13", "type": "tempo", "distanceKm": 8, "description": "1,5 km W-up · 5×1km @ 5:25-5:35/km met 400m jog · cooldown", "routeId": "boulevard-pier-8" },
+        { "date": "2026-05-15", "type": "easy", "distanceKm": 6, "description": "6 km easy recovery @ 6:20/km", "routeId": "scheveningse-bosjes-5" },
+        { "date": "2026-05-17", "type": "long-tempo", "distanceKm": 17, "description": "17 km — eerste 13 km @ 6:00/km · laatste 4 km progressief naar 5:30/km", "routeId": "wassenaar-strand-15" }
+      ]
+    },
+    {
+      "week": 4,
+      "start": "2026-05-18",
+      "end": "2026-05-24",
+      "focus": "Race-pace volume blokken",
+      "totalKm": 33,
+      "sessions": [
+        { "date": "2026-05-20", "type": "tempo", "distanceKm": 8, "description": "1 km W-up · 2×3km @ 5:30/km met 1km jog herstel · cooldown", "routeId": "boulevard-pier-8" },
+        { "date": "2026-05-22", "type": "easy", "distanceKm": 6, "description": "6 km easy @ 6:20/km", "routeId": "scheveningse-bosjes-5" },
+        { "date": "2026-05-24", "type": "long", "distanceKm": 19, "description": "19 km easy @ 5:55-6:05/km. Test bidon + 1 gel rond 60 min", "routeId": "wassenaar-strand-15" }
+      ]
+    },
+    {
+      "week": 5,
+      "start": "2026-05-25",
+      "end": "2026-05-31",
+      "focus": "Peak — 21 km HM-simulatie",
+      "totalKm": 33,
+      "checkpoint": "Go/No-Go: 21 km @ 5:50/km comfortabel? Ja → race plan. Nee → finish op 6:00/km voor ~2:07.",
+      "sessions": [
+        { "date": "2026-05-27", "type": "tempo", "distanceKm": 7, "description": "1 km W-up · 6×1km @ 5:25/km met 400m jog · cooldown", "routeId": "boulevard-pier-8" },
+        { "date": "2026-05-29", "type": "easy", "distanceKm": 5, "description": "5 km easy recovery @ 6:30/km", "routeId": "scheveningse-bosjes-5" },
+        { "date": "2026-05-31", "type": "long", "distanceKm": 21, "description": "🎯 HM-simulatie! 21 km @ 5:50-6:00/km. Loop hetzelfde tempo, gel, hydratatie als op race day", "routeId": "scheveningen-haven-bosjes-21" }
+      ]
+    },
+    {
+      "week": 6,
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "focus": "TAPER + race",
+      "totalKm": 30,
+      "sessions": [
+        { "date": "2026-06-03", "type": "easy+strides", "distanceKm": 5, "description": "5 km easy + 4×100m strides — voelen scherp, niet uitputtend", "routeId": "scheveningse-bosjes-5" },
+        { "date": "2026-06-05", "type": "easy+strides", "distanceKm": 4, "description": "4 km easy + 3×100m strides — laatste shake-out", "routeId": "scheveningse-bosjes-5" },
+        { "date": "2026-06-07", "type": "race", "distanceKm": 21.1, "description": "🏁 RACE — eerste 5 km @ 5:50/km (bewust!) · 6-15 @ 5:35-5:40 · laatste 6 km alles. Doel 1:58." }
+      ]
+    }
+  ],
+  "preventionChecklist": [
+    "Dagelijks 5 min mobility: kuit, hamstring, heup",
+    "2× per week 15 min strength: single-leg deadlift, calf raises, glute bridge, plank",
+    "Schoenen: max 600-800 km. Vervang vóór wk 3 als ze >500 km hebben",
+    "Slaap minimaal 7 uur, vooral pre-long-run",
+    "Hydratatie: long runs >12 km → bidon mee. Test gel na 60 min vóór race day",
+    "RED FLAGS — stop en rust 2 dagen: pijn die loopvorm verandert, ochtendstijfheid >24u, scherpe pijn shin/achilles/knie",
+    "10% regel: nooit meer dan +10% volume per week",
+    "Cross-training optioneel op rustdagen: fietsen of zwemmen 30-45 min easy"
+  ]
+}

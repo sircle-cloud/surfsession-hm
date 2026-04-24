@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HM Training — 7 juni 2026</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="training-styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Halve Marathon</h1>
+            <p class="subtitle">Den Haag → 7 juni 2026</p>
+            <div class="countdown">
+                <div class="countdown-num" id="daysToRace">–</div>
+                <div class="countdown-label">dagen tot race</div>
+            </div>
+            <div class="goal-band" id="goalBand"></div>
+        </div>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab active" data-tab="overview">Overzicht</button>
+        <button class="tab" data-tab="schedule">Schema</button>
+        <button class="tab" data-tab="routes">Routes</button>
+        <button class="tab" data-tab="zones">Zones</button>
+        <button class="tab" data-tab="prevention">Preventie</button>
+    </nav>
+
+    <main>
+        <!-- OVERVIEW -->
+        <section class="panel active" id="overview">
+            <div class="grid">
+                <div class="card focus-card">
+                    <h2>Deze week</h2>
+                    <div id="thisWeek"></div>
+                </div>
+                <div class="card">
+                    <h2>Voortgang</h2>
+                    <div class="progress-summary" id="progressSummary"></div>
+                </div>
+                <div class="card">
+                    <h2>Recente runs</h2>
+                    <div id="recentRuns"></div>
+                </div>
+                <div class="card">
+                    <h2>Volgende run</h2>
+                    <div id="nextRun"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCHEDULE -->
+        <section class="panel" id="schedule">
+            <h2>6-weken schema</h2>
+            <div id="weeksContainer"></div>
+        </section>
+
+        <!-- ROUTES -->
+        <section class="panel" id="routes">
+            <div class="routes-layout">
+                <aside class="routes-list" id="routesList"></aside>
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ZONES -->
+        <section class="panel" id="zones">
+            <h2>Pace & HR zones</h2>
+            <p class="muted">Berekend uit je laatste 90 dagen Strava data. Gebruik deze als richtlijn, niet als wet.</p>
+            <div id="zonesGrid" class="zones-grid"></div>
+            <div class="card">
+                <h3>Pace cheatsheet</h3>
+                <table class="pace-table" id="paceTable">
+                    <thead><tr><th>Pace (min/km)</th><th>5 km</th><th>10 km</th><th>21,1 km</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- PREVENTION -->
+        <section class="panel" id="prevention">
+            <h2>Blessurepreventie</h2>
+            <p class="muted" style="margin-bottom:24px;max-width:600px">De grootste killer van HM-prep is niet te weinig trainen — het is geblesseerd raken in week 4. Deze routines zijn zo gekozen dat ze 90% van de hardloopblessures voorkomen.</p>
+            <div id="preventionContent"></div>
+        </section>
+    </main>
+
+    <footer>
+        <span id="connectionStatus" class="status-badge">Verbinden met Strava...</span>
+        <span class="muted">Laatst bijgewerkt: <span id="lastUpdate">–</span></span>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="training-dashboard.js"></script>
+</body>
+</html>

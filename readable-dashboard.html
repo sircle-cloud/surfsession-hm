@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏄‍♂️ Scheveningen Kite Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #1a365d 0%, #2c5aa0 50%, #3182ce 100%);
+            min-height: 100vh;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #e2e8f0;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        /* Spot Selector */
+        .spot-selector {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .spot-selector label {
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .spot-dropdown {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            color: #ffffff;
+            min-width: 300px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        .spot-dropdown:hover {
+            border-color: rgba(255, 255, 255, 0.6);
+            background: rgba(0, 0, 0, 0.9);
+        }
+
+        .spot-dropdown:focus {
+            border-color: #ffffff;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        }
+
+        .spot-dropdown option {
+            background: rgba(0, 0, 0, 0.95);
+            color: #ffffff;
+            padding: 0.5rem;
+        }
+
+        .header-stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat .label {
+            font-size: 0.9rem;
+            color: #cbd5e0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .stat .value {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(15px);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Current Wind Card - High Contrast */
+        .wind-display {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .wind-speed-section {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 2px solid #ffffff;
+        }
+
+        .wind-speed-large {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        }
+
+        .wind-unit {
+            font-size: 1.5rem;
+            color: #e2e8f0;
+            font-weight: 600;
+        }
+
+        .wind-label {
+            font-size: 1rem;
+            color: #cbd5e0;
+            margin-top: 0.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .wind-compass {
+            width: 120px;
+            height: 120px;
+            border: 4px solid #ffffff;
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .compass-arrow {
+            width: 8px;
+            height: 40px;
+            background: #ffffff;
+            border-radius: 4px;
+            position: relative;
+            transform-origin: center bottom;
+            transform: rotate(240deg);
+        }
+
+        .compass-arrow::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -8px;
+            width: 0;
+            height: 0;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-bottom: 15px solid #ffffff;
+        }
+
+        .compass-center {
+            position: absolute;
+            top: -20px;
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #ffffff;
+        }
+
+        .wind-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+        }
+
+        .wind-detail-item {
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .detail-label {
+            font-size: 0.9rem;
+            color: #cbd5e0;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .detail-value {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .wind-quality {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 12px;
+            border: 2px solid #4ade80;
+        }
+
+        .quality-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #4ade80;
+            border: 2px solid #ffffff;
+        }
+
+        .quality-text {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        /* Board Selector - High Contrast */
+        .board-options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .board-option {
+            background: rgba(0, 0, 0, 0.8);
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .board-option:hover {
+            border-color: #ffffff;
+            background: rgba(0, 0, 0, 0.9);
+        }
+
+        .board-option.active {
+            border-color: #60a5fa;
+            background: rgba(96, 165, 250, 0.2);
+            box-shadow: 0 0 20px rgba(96, 165, 250, 0.5);
+        }
+
+        .board-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .board-size {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        .board-type {
+            font-size: 1rem;
+            color: #e2e8f0;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .board-recommendation {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #60a5fa;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+            line-height: 1.5;
+        }
+
+        /* Forecast - High Contrast */
+        .forecast-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.8rem;
+            margin-bottom: 1.5rem;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .forecast-hour {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            overflow: hidden;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .forecast-time {
+            font-size: 1rem;
+            color: #cbd5e0;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .forecast-wind {
+            margin: 0.3rem 0;
+            padding: 0.5rem;
+            border-radius: 8px;
+            border: 2px solid;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60px;
+        }
+
+        .forecast-wind.perfect {
+            background: rgba(0, 0, 0, 0.9);
+            border-color: #06b6d4;
+            color: #ffffff;
+        }
+
+        .forecast-wind.good {
+            background: rgba(0, 0, 0, 0.9);
+            border-color: #10b981;
+            color: #ffffff;
+        }
+
+        .forecast-wind.moderate {
+            background: rgba(0, 0, 0, 0.9);
+            border-color: #f59e0b;
+            color: #ffffff;
+        }
+
+        .forecast-wind.poor {
+            background: rgba(0, 0, 0, 0.9);
+            border-color: #ef4444;
+            color: #ffffff;
+        }
+
+        .forecast-wind-speed {
+            font-size: 1.1rem;
+            font-weight: 800;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+            line-height: 1.1;
+            display: block;
+        }
+
+        .forecast-wind-unit {
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 0.2rem;
+            white-space: nowrap;
+        }
+
+        .forecast-direction {
+            font-size: 0.9rem;
+            color: #e2e8f0;
+            margin-top: 0.3rem;
+            font-weight: 600;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .forecast-legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+            border: 2px solid #ffffff;
+        }
+
+        .legend-color.perfect { background: #06b6d4; }
+        .legend-color.good { background: #10b981; }
+        .legend-color.moderate { background: #f59e0b; }
+        .legend-color.poor { background: #ef4444; }
+
+        /* Beach Map - Simplified for better contrast */
+        .beach-map {
+            height: 250px;
+            border-radius: 12px;
+            background: linear-gradient(180deg, 
+                #0ea5e9 0%,
+                #0369a1 40%,
+                #e4d3b7 70%,
+                #65a30d 100%
+            );
+            position: relative;
+            border: 3px solid #ffffff;
+            margin-bottom: 1rem;
+        }
+
+        .wind-arrows {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 40%;
+        }
+
+        .wind-arrow {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 4px;
+            transform: rotate(240deg);
+        }
+
+        .wind-arrow::after {
+            content: '→';
+            position: absolute;
+            color: #000000;
+            font-size: 14px;
+            font-weight: 900;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .launch-spots {
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .launch-spot {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .spot-marker {
+            width: 16px;
+            height: 16px;
+            background: #ef4444;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            margin-bottom: 5px;
+        }
+
+        .launch-spot.main .spot-marker {
+            background: #06b6d4;
+        }
+
+        .spot-label {
+            font-size: 0.9rem;
+            background: #000000;
+            color: #ffffff;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            border: 1px solid #ffffff;
+        }
+
+        .wind-info-overlay {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+        }
+
+        .wind-strength-bar {
+            height: 12px;
+            background: #000000;
+            border: 2px solid #ffffff;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 5px;
+        }
+
+        .strength-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981 0%, #f59e0b 50%, #ef4444 100%);
+            width: 42%;
+        }
+
+        .strength-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #000000;
+            text-shadow: 1px 1px 2px #ffffff;
+        }
+
+        /* Session Advice - High Contrast */
+        .advice-content {
+            line-height: 1.7;
+        }
+
+        .advice-section {
+            margin-bottom: 2rem;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .advice-section h3 {
+            color: #ffffff;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .advice-section p {
+            color: #e2e8f0;
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        .advice-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .advice-list li {
+            margin-bottom: 0.8rem;
+            padding-left: 2rem;
+            position: relative;
+            color: #e2e8f0;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        .advice-list li::before {
+            content: '•';
+            color: #60a5fa;
+            position: absolute;
+            left: 0;
+            font-weight: 900;
+            font-size: 1.5rem;
+        }
+
+        /* Additional Info - High Contrast */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .info-icon {
+            font-size: 2rem;
+            width: 50px;
+            text-align: center;
+        }
+
+        .info-content {
+            flex: 1;
+        }
+
+        .info-label {
+            font-size: 1rem;
+            color: #cbd5e0;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .info-value {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #ffffff;
+        }
+
+        /* Google Maps Integration */
+        .map-container {
+            position: relative;
+            height: 400px;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .google-map {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .wind-info-panel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.9);
+            border-radius: 12px;
+            padding: 1rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            min-width: 200px;
+        }
+
+        .wind-direction-indicator {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .wind-compass-large {
+            width: 60px;
+            height: 60px;
+            border: 3px solid rgba(255, 255, 255, 0.6);
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .compass-arrow-large {
+            width: 6px;
+            height: 25px;
+            background: linear-gradient(180deg, #00e5ff, #0074D9);
+            border-radius: 3px;
+            position: absolute;
+            transform-origin: center bottom;
+            transform: rotate(240deg);
+            transition: transform 0.8s ease;
+        }
+
+        .compass-arrow-large::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: -4px;
+            width: 0;
+            height: 0;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-bottom: 10px solid #00e5ff;
+        }
+
+        .compass-center-large {
+            position: absolute;
+            top: -12px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #00e5ff;
+        }
+
+        .wind-info-text {
+            flex: 1;
+        }
+
+        .wind-speed-display {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 0.3rem;
+        }
+
+        .wind-direction-display {
+            font-size: 0.9rem;
+            color: #e2e8f0;
+            font-weight: 600;
+        }
+
+        .wind-quality-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .map-controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .map-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            color: #ffffff;
+            padding: 0.8rem 1.2rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .map-btn:hover {
+            border-color: rgba(255, 255, 255, 0.6);
+            background: rgba(0, 0, 0, 0.9);
+            transform: translateY(-2px);
+        }
+
+        .map-btn span {
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            font-size: 1rem;
+            color: #e2e8f0;
+            font-weight: 500;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container { padding: 1rem; }
+            .header h1 { font-size: 2.5rem; }
+            .main-grid { grid-template-columns: 1fr; }
+            .wind-display { flex-direction: column; }
+            .board-options { grid-template-columns: 1fr; }
+            .forecast-grid { 
+                grid-template-columns: repeat(3, minmax(90px, 1fr)); 
+                gap: 0.8rem;
+            }
+            .forecast-hour {
+                padding: 0.8rem;
+            }
+            .forecast-wind-speed { font-size: 1.1rem; }
+            .info-grid { grid-template-columns: 1fr; }
+            .header-stats { gap: 1rem; }
+            .forecast-legend { gap: 0.8rem; font-size: 0.9rem; }
+        }
+
+        @media (max-width: 480px) {
+            .wind-speed-large { font-size: 3rem; }
+            .forecast-grid { 
+                grid-template-columns: repeat(3, minmax(80px, 1fr)); 
+                gap: 0.5rem;
+            }
+            .forecast-hour {
+                padding: 0.6rem;
+            }
+            .forecast-wind-speed { font-size: 1rem; }
+            .forecast-wind-unit { font-size: 0.7rem; }
+            .forecast-direction { font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🏄‍♂️ Nederlandse Kite Spots</h1>
+            <p>Geavanceerd wind- en kitesurf dashboard</p>
+            
+            <!-- Spot Selector -->
+            <div class="spot-selector">
+                <label for="spot-select">Kies je spot:</label>
+                <select id="spot-select" class="spot-dropdown">
+                    <optgroup label="🌊 Noord-Holland Kust">
+                        <option value="scheveningen">🏖️ Scheveningen</option>
+                        <option value="kijkduin">🏖️ Kijkduin</option>
+                        <option value="zandvoort">🌊 Zandvoort</option>
+                        <option value="noordwijk">🏄 Noordwijk aan Zee</option>
+                        <option value="katwijk">🪁 Katwijk</option>
+                        <option value="ijmuiden">⚓ IJmuiden</option>
+                        <option value="wijk-aan-zee">🌅 Wijk aan Zee</option>
+                        <option value="petten">🏄‍♂️ Petten</option>
+                        <option value="julianadorp">🏖️ Julianadorp</option>
+                    </optgroup>
+                    <optgroup label="🏝️ Waddeneilanden">
+                        <option value="texel">🏝️ Texel - Paal 17</option>
+                        <option value="vlieland">🏝️ Vlieland</option>
+                        <option value="terschelling">🏝️ Terschelling</option>
+                    </optgroup>
+                    <optgroup label="🌊 Zuid-Holland/Zeeland">
+                        <option value="hoek-van-holland">🏠 Hoek van Holland</option>
+                        <option value="rockanje">🏖️ Rockanje</option>
+                        <option value="ouddorp">🌊 Ouddorp</option>
+                        <option value="domburg">🌸 Domburg</option>
+                        <option value="oostkapelle">🏄‍♀️ Oostkapelle</option>
+                        <option value="neeltje-jans">🦪 Neeltje Jans</option>
+                        <option value="kamperland">🏖️ Kamperland</option>
+                    </optgroup>
+                    <optgroup label="🏞️ Binnenwateren">
+                        <option value="muiderberg">⛵ Muiderberg (IJmeer)</option>
+                        <option value="ijburg">🏙️ IJburg</option>
+                        <option value="monnickendam">⛵ Monnickendam</option>
+                        <option value="edam">🧀 Edam Zuid</option>
+                        <option value="huizen">🏘️ Huizen (Gooimeer)</option>
+                        <option value="blaricum">🏞️ Blaricum (Gooimeer)</option>
+                        <option value="lemmer">🛥️ Lemmer</option>
+                        <option value="medemblik">⛵ Medemblik</option>
+                        <option value="makkum">🏄‍♂️ Makkum</option>
+                        <option value="lelystad">🏙️ Lelystad</option>
+                        <option value="zeewolde">🌊 Zeewolde</option>
+                    </optgroup>
+                </select>
+            </div>
+            
+            <div class="header-stats">
+                <div class="stat">
+                    <div class="label">Laatste Update</div>
+                    <div class="value" id="last-update">16:42</div>
+                </div>
+                <div class="stat">
+                    <div class="label">Data Status</div>
+                    <div class="value">LIVE</div>
+                </div>
+                <div class="stat">
+                    <div class="label">Locatie</div>
+                    <div class="value">Scheveningen</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-grid">
+            <!-- Current Wind Conditions -->
+            <div class="card">
+                <h2>Wind Nu</h2>
+                <div class="wind-display">
+                    <div class="wind-speed-section">
+                        <div class="wind-speed-large">
+                            19<span class="wind-unit">kts</span>
+                        </div>
+                        <div class="wind-label">Windsnelheid</div>
+                    </div>
+                    <div class="wind-compass">
+                        <div class="compass-arrow"></div>
+                        <div class="compass-center">N</div>
+                    </div>
+                </div>
+                
+                <div class="wind-details">
+                    <div class="wind-detail-item">
+                        <div class="detail-label">Richting</div>
+                        <div class="detail-value">ZW 240°</div>
+                    </div>
+                    <div class="wind-detail-item">
+                        <div class="detail-label">Vlagen</div>
+                        <div class="detail-value">24 kts</div>
+                    </div>
+                    <div class="wind-detail-item">
+                        <div class="detail-label">Trend</div>
+                        <div class="detail-value">Stabiel</div>
+                    </div>
+                    <div class="wind-detail-item">
+                        <div class="detail-label">Bron</div>
+                        <div class="detail-value">Hanglos</div>
+                    </div>
+                </div>
+
+                <div class="wind-quality">
+                    <div class="quality-dot"></div>
+                    <div class="quality-text">Goede Condities</div>
+                </div>
+            </div>
+
+            <!-- Board Selector -->
+            <div class="card">
+                <h2>Kies je setup</h2>
+                <div class="board-options">
+                    <div class="board-option" data-size="9" data-type="twintip">
+                        <div class="board-icon">🏄</div>
+                        <div class="board-size">9m²</div>
+                        <div class="board-type">Twin Tip</div>
+                    </div>
+                    <div class="board-option active" data-size="12" data-type="twintip">
+                        <div class="board-icon">🏄</div>
+                        <div class="board-size">12m²</div>
+                        <div class="board-type">Twin Tip</div>
+                    </div>
+                    <div class="board-option" data-size="14" data-type="foil">
+                        <div class="board-icon">🪁</div>
+                        <div class="board-size">14m²</div>
+                        <div class="board-type">Foil</div>
+                    </div>
+                    <div class="board-option" data-size="10" data-type="surf">
+                        <div class="board-icon">🏄‍♀️</div>
+                        <div class="board-size">10m²</div>
+                        <div class="board-type">Surfboard</div>
+                    </div>
+                </div>
+                <div class="board-recommendation" id="board-recommendation">
+                    🎯 Perfecte match! 12m² is ideaal voor 19 knopen wind
+                </div>
+            </div>
+
+            <!-- 3-Hour Forecast -->
+            <div class="card">
+                <h2>Komende 3 uur</h2>
+                <div style="max-width: 100%; overflow: hidden;">
+                    <div class="forecast-grid">
+                    <div class="forecast-hour">
+                        <div class="forecast-time">17:00</div>
+                        <div class="forecast-wind good">
+                            <div class="forecast-wind-speed">18</div>
+                            <div class="forecast-wind-unit">kts</div>
+                        </div>
+                        <div class="forecast-direction">ZW</div>
+                    </div>
+                    <div class="forecast-hour">
+                        <div class="forecast-time">18:00</div>
+                        <div class="forecast-wind good">
+                            <div class="forecast-wind-speed">21</div>
+                            <div class="forecast-wind-unit">kts</div>
+                        </div>
+                        <div class="forecast-direction">ZW</div>
+                    </div>
+                    <div class="forecast-hour">
+                        <div class="forecast-time">19:00</div>
+                        <div class="forecast-wind perfect">
+                            <div class="forecast-wind-speed">23</div>
+                            <div class="forecast-wind-unit">kts</div>
+                        </div>
+                        <div class="forecast-direction">ZW</div>
+                    </div>
+                </div>
+                <div class="forecast-legend">
+                    <div class="legend-item">
+                        <div class="legend-color perfect"></div>
+                        <span>Perfect</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color good"></div>
+                        <span>Goed</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color moderate"></div>
+                        <span>Matig</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color poor"></div>
+                        <span>Slecht</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Interactive Map -->
+            <div class="card">
+                <h2 id="map-title">Scheveningen Windkaart</h2>
+                <div class="map-container">
+                    <div id="google-map" class="google-map"></div>
+                    <div class="wind-info-panel">
+                        <div class="wind-direction-indicator">
+                            <div class="wind-compass-large">
+                                <div class="compass-arrow-large" id="map-wind-arrow"></div>
+                                <div class="compass-center-large">N</div>
+                            </div>
+                            <div class="wind-info-text">
+                                <div class="wind-speed-display" id="map-wind-speed">19 kts</div>
+                                <div class="wind-direction-display" id="map-wind-direction">ZW (240°)</div>
+                            </div>
+                        </div>
+                        <div class="wind-quality-indicator" id="map-wind-quality">
+                            <div class="quality-dot"></div>
+                            <span>Goede Condities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-controls">
+                    <button class="map-btn" onclick="toggleMapType()">
+                        <span>🗺️</span> Kaarttype
+                    </button>
+                    <button class="map-btn" onclick="centerOnSpot()">
+                        <span>📍</span> Centreer Spot
+                    </button>
+                    <button class="map-btn" onclick="showNearbySpots()">
+                        <span>🏄‍♂️</span> Nabije Spots
+                    </button>
+                </div>
+            </div>
+
+            <!-- Session Advisor -->
+            <div class="card">
+                <h2>Sessie Advies</h2>
+                <div class="advice-content">
+                    <div class="advice-section">
+                        <h3>🎯 Aanbeveling</h3>
+                        <p>Goede kite sessie! 19 knopen ZW wind is perfect voor Scheveningen. De wind is stabiel en de richting is ideaal voor de hoofdingang.</p>
+                    </div>
+                    <div class="advice-section">
+                        <h3>⚠️ Let op</h3>
+                        <ul class="advice-list">
+                            <li>Controleer lokale condities ter plaatse</li>
+                            <li>Wind 19 kts met vlagen tot 24 kts</li>
+                            <li>Let op andere strandgebruikers en zwemmers</li>
+                            <li>Check je materiaal voor je het water ingaat</li>
+                            <li>Wind neemt toe rond 19:00 uur (23 kts)</li>
+                        </ul>
+                    </div>
+                    <div class="advice-section">
+                        <h3>📍 Beste locatie</h3>
+                        <p>Hoofdingang Scheveningen - Breed strand, goede faciliteiten, en optimale windrichting voor ZW wind.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="card">
+                <h2>Extra Info</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-icon">🌊</div>
+                        <div class="info-content">
+                            <div class="info-label">Golfhoogte</div>
+                            <div class="info-value">0.8 m</div>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🌡️</div>
+                        <div class="info-content">
+                            <div class="info-label">Water Temp</div>
+                            <div class="info-value">18 °C</div>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🌅</div>
+                        <div class="info-content">
+                            <div class="info-label">Getij</div>
+                            <div class="info-value">Opkomend</div>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">👁️</div>
+                        <div class="info-content">
+                            <div class="info-label">Zicht</div>
+                            <div class="info-value">15 km</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Laatste update: 16:42 | Data van Hanglos.nl, Surftime.nl, OpenWeather | Auto-refresh elke 15 minuten</p>
+        </footer>
+    </div>
+
+    <!-- Google Maps API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    
+    <script>
+        // Google Maps Integration
+        let map;
+        let currentMarker;
+        let mapType = 'roadmap';
+
+        // Initialize Google Map
+        function initMap() {
+            const defaultLocation = { lat: 52.0907, lng: 4.2927 }; // Scheveningen
+            
+            map = new google.maps.Map(document.getElementById('google-map'), {
+                zoom: 12,
+                center: defaultLocation,
+                mapTypeId: mapType,
+                styles: [
+                    {
+                        featureType: 'water',
+                        elementType: 'geometry',
+                        stylers: [{ color: '#0074D9' }]
+                    },
+                    {
+                        featureType: 'landscape',
+                        elementType: 'geometry',
+                        stylers: [{ color: '#f5f5f5' }]
+                    }
+                ]
+            });
+
+            // Add initial marker
+            addSpotMarker(defaultLocation, 'Scheveningen');
+        }
+
+        // Add marker for spot
+        function addSpotMarker(location, title) {
+            if (currentMarker) {
+                currentMarker.setMap(null);
+            }
+            
+            currentMarker = new google.maps.Marker({
+                position: location,
+                map: map,
+                title: title,
+                icon: {
+                    url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`
+                        <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="18" fill="#00e5ff" stroke="#ffffff" stroke-width="2"/>
+                            <text x="20" y="26" font-family="Arial" font-size="20" fill="white" text-anchor="middle">🏄‍♂️</text>
+                        </svg>
+                    `),
+                    scaledSize: new google.maps.Size(40, 40)
+                }
+            });
+        }
+
+        // Update map for selected spot
+        function updateMapForSpot(spotKey) {
+            const spot = kiteSpotsData[spotKey];
+            if (!spot || !spot.coordinates) return;
+
+            const location = spot.coordinates;
+            
+            // Center map on spot
+            map.setCenter(location);
+            addSpotMarker(location, spot.name);
+            
+            // Update wind info panel
+            document.getElementById('map-wind-speed').textContent = `${spot.wind.speed} kts`;
+            document.getElementById('map-wind-direction').textContent = `${spot.wind.direction} (${spot.wind.angle}°)`;
+            document.getElementById('map-wind-arrow').style.transform = `rotate(${spot.wind.angle}deg)`;
+            document.getElementById('map-wind-quality').innerHTML = `
+                <div class="quality-dot"></div>
+                <span>${spot.conditions.quality}</span>
+            `;
+        }
+
+        // Map control functions
+        function toggleMapType() {
+            mapType = mapType === 'roadmap' ? 'satellite' : 'roadmap';
+            map.setMapTypeId(mapType);
+        }
+
+        function centerOnSpot() {
+            if (currentMarker) {
+                map.setCenter(currentMarker.getPosition());
+                map.setZoom(14);
+            }
+        }
+
+        function showNearbySpots() {
+            // Add markers for nearby spots (simplified)
+            const nearbySpots = [
+                { name: 'Kijkduin', lat: 52.0671, lng: 4.2167 },
+                { name: 'Hoek van Holland', lat: 51.9775, lng: 4.1311 }
+            ];
+            
+            nearbySpots.forEach(spot => {
+                new google.maps.Marker({
+                    position: { lat: spot.lat, lng: spot.lng },
+                    map: map,
+                    title: spot.name,
+                    icon: {
+                        url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`
+                            <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="13" fill="#ff6b6b" stroke="#ffffff" stroke-width="2"/>
+                                <text x="15" y="20" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🪁</text>
+                            </svg>
+                        `),
+                        scaledSize: new google.maps.Size(30, 30)
+                    }
+                });
+            });
+        }
+
+    <script>
+        // Nederlandse Kitesurf Spots Data
+        const kiteSpotsData = {
+            'scheveningen': {
+                name: 'Scheveningen',
+                location: 'Den Haag',
+                wind: { speed: 19, direction: 'ZW', angle: 240, gusts: 24, trend: 'Stabiel' },
+                conditions: { quality: 'Goede Condities', water_temp: 18, wave_height: 0.8, visibility: 15, tide: 'Opkomend' },
+                launch_spots: [{ name: 'Hoofdingang', type: 'main' }, { name: 'Zuidpier', type: 'secondary' }],
+                recommendations: { optimal_wind: '15-25 kts', best_direction: 'ZW-W', skill_level: 'Alle niveaus' },
+                coordinates: { lat: 52.0907, lng: 4.2927 }
+            },
+            'zandvoort': {
+                name: 'Zandvoort',
+                location: 'Noord-Holland',
+                wind: { speed: 17, direction: 'W', angle: 270, gusts: 22, trend: 'Toenemend' },
+                conditions: { quality: 'Goede Condities', water_temp: 17, wave_height: 1.2, visibility: 12, tide: 'Afgaand' },
+                launch_spots: [{ name: 'Zuidpier', type: 'main' }, { name: 'Noordstrand', type: 'secondary' }],
+                recommendations: { optimal_wind: '12-22 kts', best_direction: 'W-NW', skill_level: 'Gevorderd+' },
+                coordinates: { lat: 52.3667, lng: 4.5333 }
+            },
+            'ijmuiden': {
+                name: 'IJmuiden',
+                location: 'Noord-Holland',
+                wind: { speed: 21, direction: 'NW', angle: 315, gusts: 26, trend: 'Sterk' },
+                conditions: { quality: 'Uitstekende Condities', water_temp: 16, wave_height: 1.5, visibility: 10, tide: 'Hoog' },
+                launch_spots: [{ name: 'Zuidpier', type: 'main' }, { name: 'Forteiland', type: 'secondary' }],
+                recommendations: { optimal_wind: '18-28 kts', best_direction: 'NW-W', skill_level: 'Expert' }
+            },
+            'noordwijk': {
+                name: 'Noordwijk',
+                location: 'Zuid-Holland',
+                wind: { speed: 15, direction: 'ZW', angle: 225, gusts: 19, trend: 'Wisselend' },
+                conditions: { quality: 'Matige Condities', water_temp: 18, wave_height: 0.6, visibility: 18, tide: 'Laag' },
+                launch_spots: [{ name: 'Hoofdstrand', type: 'main' }, { name: 'Langevelderslag', type: 'secondary' }],
+                recommendations: { optimal_wind: '14-20 kts', best_direction: 'Z-ZW', skill_level: 'Beginner+' }
+            },
+            'katwijk': {
+                name: 'Katwijk',
+                location: 'Zuid-Holland',
+                wind: { speed: 18, direction: 'W', angle: 270, gusts: 23, trend: 'Stabiel' },
+                conditions: { quality: 'Goede Condities', water_temp: 17, wave_height: 0.9, visibility: 14, tide: 'Opkomend' },
+                launch_spots: [{ name: 'Noordstrand', type: 'main' }, { name: 'Zuidstrand', type: 'secondary' }],
+                recommendations: { optimal_wind: '15-25 kts', best_direction: 'W-ZW', skill_level: 'Alle niveaus' }
+            },
+            'hoek-van-holland': {
+                name: 'Hoek van Holland',
+                location: 'Zuid-Holland',
+                wind: { speed: 22, direction: 'NW', angle: 315, gusts: 27, trend: 'Krachtig' },
+                conditions: { quality: 'Uitstekende Condities', water_temp: 16, wave_height: 1.8, visibility: 8, tide: 'Afgaand' },
+                launch_spots: [{ name: 'Strand Zuid', type: 'main' }, { name: 'Haven', type: 'secondary' }],
+                recommendations: { optimal_wind: '18-30 kts', best_direction: 'NW-W', skill_level: 'Gevorderd+' }
+            },
+            'texel': {
+                name: 'Texel - Paal 17',
+                location: 'Waddeneiland',
+                wind: { speed: 25, direction: 'N', angle: 0, gusts: 31, trend: 'Zeer Sterk' },
+                conditions: { quality: 'Perfecte Condities', water_temp: 15, wave_height: 2.1, visibility: 25, tide: 'Hoog' },
+                launch_spots: [{ name: 'Paal 17', type: 'main' }, { name: 'Paal 15', type: 'secondary' }],
+                recommendations: { optimal_wind: '20-35 kts', best_direction: 'N-NW', skill_level: 'Expert' }
+            },
+            'wijk-aan-zee': {
+                name: 'Wijk aan Zee',
+                location: 'Noord-Holland',
+                wind: { speed: 16, direction: 'W', angle: 270, gusts: 20, trend: 'Matig' },
+                conditions: { quality: 'Redelijke Condities', water_temp: 17, wave_height: 1.0, visibility: 16, tide: 'Laag' },
+                launch_spots: [{ name: 'Hoofdstrand', type: 'main' }, { name: 'Zuidstrand', type: 'secondary' }],
+                recommendations: { optimal_wind: '14-22 kts', best_direction: 'W-NW', skill_level: 'Alle niveaus' }
+            },
+            'kijkduin': {
+                name: 'Kijkduin',
+                location: 'Den Haag',
+                wind: { speed: 20, direction: 'ZW', angle: 225, gusts: 25, trend: 'Goed' },
+                conditions: { quality: 'Goede Condities', water_temp: 18, wave_height: 1.1, visibility: 13, tide: 'Opkomend' },
+                launch_spots: [{ name: 'Hoofdstrand', type: 'main' }, { name: 'Zuidstrand', type: 'secondary' }],
+                recommendations: { optimal_wind: '16-26 kts', best_direction: 'ZW-W', skill_level: 'Gevorderd' }
+            },
+            'domburg': {
+                name: 'Domburg',
+                location: 'Zeeland',
+                wind: { speed: 23, direction: 'W', angle: 270, gusts: 28, trend: 'Krachtig' },
+                conditions: { quality: 'Uitstekende Condities', water_temp: 19, wave_height: 1.6, visibility: 20, tide: 'Afgaand' },
+                launch_spots: [{ name: 'Hoofdstrand', type: 'main' }, { name: 'Oostkapelle', type: 'secondary' }],
+                recommendations: { optimal_wind: '18-30 kts', best_direction: 'W-ZW', skill_level: 'Gevorderd+' },
+                coordinates: { lat: 51.5667, lng: 3.4833 }
+            },
+            'muiderberg': {
+                name: 'Muiderberg (IJmeer)',
+                location: 'Noord-Holland',
+                wind: { speed: 14, direction: 'W', angle: 270, gusts: 18, trend: 'Matig' },
+                conditions: { quality: 'Redelijke Condities', water_temp: 19, wave_height: 0.3, visibility: 20, tide: 'N.v.t.' },
+                launch_spots: [{ name: 'Strandje Muiden', type: 'main' }, { name: 'Zuidstrand', type: 'secondary' }],
+                recommendations: { optimal_wind: '12-20 kts', best_direction: 'W-ZW', skill_level: 'Beginner+' },
+                coordinates: { lat: 52.3278, lng: 5.1111 }
+            },
+            'petten': {
+                name: 'Petten',
+                location: 'Noord-Holland',
+                wind: { speed: 20, direction: 'NW', angle: 315, gusts: 25, trend: 'Goed' },
+                conditions: { quality: 'Goede Condities', water_temp: 16, wave_height: 1.3, visibility: 15, tide: 'Opkomend' },
+                launch_spots: [{ name: 'Pettemer Zeewering', type: 'main' }, { name: 'Noordstrand', type: 'secondary' }],
+                recommendations: { optimal_wind: '16-28 kts', best_direction: 'W-NW', skill_level: 'Gevorderd' },
+                coordinates: { lat: 52.7667, lng: 4.6500 }
+            },
+            'ijburg': {
+                name: 'IJburg',
+                location: 'Amsterdam',
+                wind: { speed: 16, direction: 'W', angle: 270, gusts: 20, trend: 'Wisselend' },
+                conditions: { quality: 'Goede Condities', water_temp: 20, wave_height: 0.2, visibility: 25, tide: 'N.v.t.' },
+                launch_spots: [{ name: 'IJburg Strand', type: 'main' }, { name: 'Centrumstrand', type: 'secondary' }],
+                recommendations: { optimal_wind: '12-22 kts', best_direction: 'W-ZW', skill_level: 'Alle niveaus' },
+                coordinates: { lat: 52.3667, lng: 5.2167 }
+            },
+            'lemmer': {
+                name: 'Lemmer',
+                location: 'Friesland',
+                wind: { speed: 18, direction: 'ZW', angle: 225, gusts: 22, trend: 'Stabiel' },
+                conditions: { quality: 'Goede Condities', water_temp: 18, wave_height: 0.4, visibility: 15, tide: 'N.v.t.' },
+                launch_spots: [{ name: 'Lemmer Haven', type: 'main' }, { name: 'Buitenhaven', type: 'secondary' }],
+                recommendations: { optimal_wind: '14-25 kts', best_direction: 'ZW-W', skill_level: 'Alle niveaus' },
+                coordinates: { lat: 52.8167, lng: 5.7167 }
+            },
+            'medemblik': {
+                name: 'Medemblik',
+                location: 'Noord-Holland',
+                wind: { speed: 17, direction: 'W', angle: 270, gusts: 21, trend: 'Matig' },
+                conditions: { quality: 'Goede Condities', water_temp: 17, wave_height: 0.5, visibility: 18, tide: 'N.v.t.' },
+                launch_spots: [{ name: 'Medemblik Haven', type: 'main' }, { name: 'Regattacentrum', type: 'secondary' }],
+                recommendations: { optimal_wind: '13-23 kts', best_direction: 'W-ZW', skill_level: 'Alle niveaus' },
+                coordinates: { lat: 52.7667, lng: 5.1000 }
+            }
+        };
+
+        // Function to update dashboard with selected spot data
+        function updateSpotData(spotKey) {
+            const spot = kiteSpotsData[spotKey];
+            if (!spot) return;
+
+            // Update wind data
+            document.querySelector('.wind-speed-large').innerHTML = 
+                `${spot.wind.speed}<span class="wind-unit">kts</span>`;
+            document.querySelector('.detail-value').textContent = 
+                `${spot.wind.direction} ${spot.wind.angle}°`;
+            document.querySelectorAll('.detail-value')[1].textContent = 
+                `${spot.wind.gusts} kts`;
+            document.querySelectorAll('.detail-value')[2].textContent = 
+                spot.wind.trend;
+
+            // Update conditions
+            document.querySelector('.quality-text').textContent = spot.conditions.quality;
+            document.querySelector('.info-value').textContent = `${spot.conditions.wave_height} m`;
+            document.querySelectorAll('.info-value')[1].textContent = `${spot.conditions.water_temp} °C`;
+            document.querySelectorAll('.info-value')[2].textContent = spot.conditions.tide;
+            document.querySelectorAll('.info-value')[3].textContent = `${spot.conditions.visibility} km`;
+
+            // Update launch spots in map
+            const launchSpots = document.querySelectorAll('.spot-label');
+            if (launchSpots.length >= 2) {
+                launchSpots[0].textContent = spot.launch_spots[0].name;
+                launchSpots[1].textContent = spot.launch_spots[1].name;
+            }
+
+            // Update compass arrow rotation
+            const compassArrow = document.querySelector('.compass-arrow');
+            if (compassArrow) {
+                compassArrow.style.transform = `rotate(${spot.wind.angle}deg)`;
+            }
+
+            // Update location in header stats
+            document.querySelectorAll('.value')[2].textContent = spot.location;
+
+            // Update map title
+            document.getElementById('map-title').textContent = `${spot.name} Windkaart`;
+
+            // Update Google Maps
+            if (typeof updateMapForSpot === 'function') {
+                updateMapForSpot(spotKey);
+            }
+
+            // Update forecast data (generate based on current conditions)
+            updateForecastData(spot);
+
+            // Update session advice
+            updateSessionAdvice(spot);
+
+            console.log(`🏄‍♂️ Updated dashboard for ${spot.name}`);
+        }
+
+        // Function to update forecast data based on spot
+        function updateForecastData(spot) {
+            const forecastSpeeds = document.querySelectorAll('.forecast-wind-speed');
+            const forecastDirections = document.querySelectorAll('.forecast-direction');
+            const forecastWinds = document.querySelectorAll('.forecast-wind');
+            
+            // Generate forecast based on current conditions with some variation
+            const baseSpeed = spot.wind.speed;
+            const direction = spot.wind.direction;
+            
+            const forecastData = [
+                { speed: Math.max(5, baseSpeed - 1), dir: direction },
+                { speed: Math.min(35, baseSpeed + 2), dir: direction },
+                { speed: Math.min(35, baseSpeed + 4), dir: direction }
+            ];
+            
+            forecastData.forEach((forecast, index) => {
+                if (forecastSpeeds[index]) {
+                    forecastSpeeds[index].textContent = forecast.speed;
+                }
+                if (forecastDirections[index]) {
+                    forecastDirections[index].textContent = forecast.dir;
+                }
+                if (forecastWinds[index]) {
+                    // Update wind quality class
+                    forecastWinds[index].className = 'forecast-wind ' + getWindQuality(forecast.speed);
+                }
+            });
+        }
+
+        // Function to determine wind quality based on speed
+        function getWindQuality(speed) {
+            if (speed >= 20 && speed <= 25) return 'perfect';
+            if (speed >= 15 && speed < 20 || speed > 25 && speed <= 30) return 'good';
+            if (speed >= 12 && speed < 15 || speed > 30 && speed <= 35) return 'moderate';
+            return 'poor';
+        }
+
+        // Function to update session advice based on spot
+        function updateSessionAdvice(spot) {
+            const recommendation = document.querySelector('.advice-section p');
+            const adviceList = document.querySelectorAll('.advice-list li');
+            const bestLocation = document.querySelectorAll('.advice-section p')[2];
+            
+            // Update main recommendation
+            if (recommendation) {
+                const quality = getWindQuality(spot.wind.speed);
+                let qualityText = quality === 'perfect' ? 'Perfecte' : 
+                                quality === 'good' ? 'Goede' : 
+                                quality === 'moderate' ? 'Redelijke' : 'Matige';
+                
+                recommendation.textContent = 
+                    `${qualityText} kite sessie! ${spot.wind.speed} knopen ${spot.wind.direction} wind bij ${spot.name}. ${spot.conditions.quality.toLowerCase()}.`;
+            }
+            
+            // Update advice points
+            if (adviceList.length >= 5) {
+                adviceList[0].textContent = 'Controleer lokale condities ter plaatse';
+                adviceList[1].textContent = `Wind ${spot.wind.speed} kts met vlagen tot ${spot.wind.gusts} kts`;
+                adviceList[2].textContent = 'Let op andere strandgebruikers en zwemmers';
+                adviceList[3].textContent = 'Check je materiaal voor je het water ingaat';
+                adviceList[4].textContent = `Optimaal windgebied: ${spot.recommendations.optimal_wind} - ${spot.recommendations.best_direction}`;
+            }
+            
+            // Update best location
+            if (bestLocation) {
+                bestLocation.textContent = 
+                    `${spot.launch_spots[0].name}, ${spot.name} - ${spot.recommendations.skill_level}. Optimale windrichting: ${spot.recommendations.best_direction}.`;
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🏄‍♂️ High-Contrast Nederlandse Kite Dashboard loaded!');
+            
+            // Spot selector functionality
+            const spotSelector = document.getElementById('spot-select');
+            spotSelector.addEventListener('change', function() {
+                const selectedSpot = this.value;
+                updateSpotData(selectedSpot);
+                console.log(`Selected spot: ${selectedSpot}`);
+            });
+
+            // Initialize with default spot (Scheveningen)
+            updateSpotData('scheveningen');
+            
+            // Board selector functionality
+            const boardOptions = document.querySelectorAll('.board-option');
+            const recommendation = document.getElementById('board-recommendation');
+            
+            boardOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    boardOptions.forEach(opt => opt.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const size = this.dataset.size;
+                    const type = this.dataset.type;
+                    const selectedSpot = document.getElementById('spot-select').value;
+                    const currentSpot = kiteSpotsData[selectedSpot];
+                    const windSpeed = currentSpot ? currentSpot.wind.speed : 19;
+                    
+                    let advice = '';
+                    if (windSpeed >= 15 && windSpeed <= 25 && size >= 10 && size <= 14) {
+                        advice = `🎯 Perfecte match! ${size}m² is ideaal voor ${windSpeed} knopen wind`;
+                    } else if (windSpeed > 25 && size > 12) {
+                        advice = `⚠️ Overweeg een kleinere kite bij ${windSpeed} knopen wind`;
+                    } else if (windSpeed < 12 && size < 12) {
+                        advice = `💨 Bij ${windSpeed} knopen heb je meer power nodig - probeer een grotere kite`;
+                    } else {
+                        advice = `📝 ${size}m² ${type} bij ${windSpeed} knopen - check je ervaring`;
+                    }
+                    
+                    recommendation.textContent = advice;
+                });
+            });
+            
+            // Update time
+            function updateTime() {
+                const now = new Date();
+                const timeString = now.toLocaleTimeString('nl-NL', {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                document.getElementById('last-update').textContent = timeString;
+            }
+            
+            updateTime();
+            setInterval(updateTime, 60000);
+            
+            console.log('✅ High-contrast dashboard ready! Wind: 19 knots ZW');
+        });
+    </script>
+</body>
+</html>

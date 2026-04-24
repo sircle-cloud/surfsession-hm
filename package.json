@@ -1,0 +1,32 @@
+{
+  "name": "surfsession-dashboard",
+  "version": "1.0.0",
+  "description": "Minimalistic surf conditions dashboard for Scheveningen",
+  "main": "index.html",
+  "scripts": {
+    "start": "node proxy-server.js",
+    "dev": "concurrently \"node proxy-server.js\" \"python3 -m http.server 8000\"",
+    "proxy": "node proxy-server.js",
+    "training": "node strava-proxy.js",
+    "setup": "node setup-strava.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "http-proxy-middleware": "^2.0.6",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": [
+    "surf",
+    "weather",
+    "dashboard",
+    "scheveningen",
+    "wind",
+    "waves"
+  ],
+  "author": "SurfSession",
+  "license": "MIT"
+}

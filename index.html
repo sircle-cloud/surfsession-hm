@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf Session - Scheveningen Conditions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Surf Session</h1>
+            <p>Scheveningen Surf Conditions</p>
+        </header>
+
+        <main class="dashboard">
+            <!-- Visual Wind Section -->
+            <div class="visual-section">
+                <div class="wind-visual-card">
+                    <h3>Wind Conditions</h3>
+                    <div class="wind-compass-container">
+                        <div class="beach-indicator">
+                            <div class="beach-line"></div>
+                            <span class="beach-label">Scheveningen Beach</span>
+                        </div>
+                        <div class="wind-compass" id="wind-compass">
+                            <div class="compass-ring"></div>
+                            <div class="wind-arrow" id="wind-arrow"></div>
+                            <div class="wind-speed-center">
+                                <span class="wind-speed-value" id="wind-speed-knots">--</span>
+                                <span class="wind-speed-unit">kts</span>
+                            </div>
+                            <div class="compass-directions">
+                                <span class="compass-n">N</span>
+                                <span class="compass-e">E</span>
+                                <span class="compass-s">S</span>
+                                <span class="compass-w">W</span>
+                            </div>
+                        </div>
+                        <div class="wind-quality" id="wind-quality">
+                            <span class="quality-indicator"></span>
+                            <span class="quality-text">Checking...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swell-visual-card">
+                    <h3>Swell & Waves</h3>
+                    <div class="swell-container">
+                        <div class="wave-visualization" id="wave-viz">
+                            <div class="wave-bars">
+                                <div class="wave-bar" style="--height: 0.5"></div>
+                                <div class="wave-bar" style="--height: 0.8"></div>
+                                <div class="wave-bar" style="--height: 1.2"></div>
+                                <div class="wave-bar" style="--height: 0.9"></div>
+                                <div class="wave-bar" style="--height: 0.6"></div>
+                            </div>
+                        </div>
+                        <div class="swell-metrics">
+                            <div class="swell-metric">
+                                <span class="metric-value" id="wave-height">--</span>
+                                <span class="metric-unit">m</span>
+                                <span class="metric-label">Height</span>
+                            </div>
+                            <div class="swell-metric">
+                                <span class="metric-value" id="wave-period">--</span>
+                                <span class="metric-unit">s</span>
+                                <span class="metric-label">Period</span>
+                            </div>
+                        </div>
+                        <div class="swell-direction" id="swell-direction">
+                            <div class="swell-arrow"></div>
+                            <span>From <span id="swell-dir-text">NW</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather-visual-card">
+                    <h3>Weather</h3>
+                    <div class="weather-container">
+                        <div class="weather-icon" id="weather-icon">
+                            <div class="sun-icon">☀️</div>
+                            <div class="rain-drops" id="rain-drops"></div>
+                        </div>
+                        <div class="weather-metrics">
+                            <div class="weather-metric">
+                                <span class="metric-value" id="temperature">--</span>
+                                <span class="metric-unit">°C</span>
+                            </div>
+                            <div class="weather-detail" id="weather-condition">Sunny</div>
+                        </div>
+                        <div class="rain-probability" id="rain-probability">
+                            <div class="rain-bar">
+                                <div class="rain-fill" style="--fill: 20%"></div>
+                            </div>
+                            <span>20% Rain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conditions-grid">
+                <div class="card wind-card">
+                    <h3>Wind Details</h3>
+                    <div class="metric">
+                        <span class="value" id="wind-speed-kmh">--</span>
+                        <span class="unit">km/h</span>
+                    </div>
+                    <div class="detail">
+                        <span id="wind-direction-text">--</span>
+                    </div>
+                    <div class="wind-strength-bar">
+                        <div class="strength-fill" id="wind-strength-fill"></div>
+                    </div>
+                </div>
+
+                <div class="card current-card">
+                    <h3>Current Flow</h3>
+                    <div class="current-visual">
+                        <div class="current-arrows" id="current-arrows">
+                            <div class="current-arrow"></div>
+                            <div class="current-arrow"></div>
+                            <div class="current-arrow"></div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <span id="current-direction">Offshore</span>
+                    </div>
+                </div>
+
+                <div class="card tide-card">
+                    <h3>Tide</h3>
+                    <div class="tide-chart" id="tide-chart">
+                        <div class="tide-curve"></div>
+                        <div class="tide-marker"></div>
+                    </div>
+                    <div class="metric">
+                        <span class="value" id="tide-height">--</span>
+                        <span class="unit">m</span>
+                    </div>
+                    <div class="detail">
+                        <span id="tide-status">--</span>
+                    </div>
+                </div>
+
+                <div class="card visibility-card">
+                    <h3>Visibility</h3>
+                    <div class="visibility-meter">
+                        <div class="visibility-fill" id="visibility-fill"></div>
+                    </div>
+                    <div class="metric">
+                        <span class="value" id="visibility">--</span>
+                        <span class="unit">km</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forecast-section">
+                <h3>5-Day Forecast</h3>
+                <div class="forecast-grid" id="forecast-grid">
+                </div>
+            </div>
+
+            <div class="last-updated">
+                <span>Last updated: <span id="last-updated">--</span></span>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

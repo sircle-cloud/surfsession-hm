@@ -1,0 +1,59 @@
+{
+  "home": {
+    "name": "Maaswijkstraat 118, Scheveningen",
+    "lat": 52.1085,
+    "lng": 4.2811
+  },
+  "routes": [
+    {
+      "id": "scheveningse-bosjes-5",
+      "name": "Scheveningse Bosjes rondje",
+      "distanceKm": 5,
+      "surface": "Bospaden + asfalt",
+      "terrain": "Glooiend, beschut",
+      "bestFor": "Easy runs, recovery",
+      "description": "Vanaf Maaswijkstraat de Scheveningse Bosjes in. Rustige bospaden, weinig verkeer, ideaal voor easy ritmes.",
+      "color": "#ef4444"
+    },
+    {
+      "id": "boulevard-pier-8",
+      "name": "Boulevard naar Pier en terug",
+      "distanceKm": 8,
+      "surface": "Boulevard tegels",
+      "terrain": "Vlak, zeebries",
+      "bestFor": "Tempo runs, structuur",
+      "description": "Via Gevers Deynootweg naar de boulevard, langs de pier richting Kurhaus en terug. Vlak parcours = goed voor pace werk. Wind kan flink zijn.",
+      "color": "#dc2626"
+    },
+    {
+      "id": "strand-zuid-11",
+      "name": "Strand richting Kijkduin",
+      "distanceKm": 11,
+      "surface": "Strand (eb!) + boulevard",
+      "terrain": "Vlak strand, zacht zand",
+      "bestFor": "Long runs, mentale uitdaging",
+      "description": "Langs het strand richting Kijkduin out-and-back. Check getijden — loop bij laagwater op stevig zand vlak bij waterlijn. Strand traint je kuiten goed.",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "wassenaar-strand-15",
+      "name": "Strand richting Wassenaarse Slag",
+      "distanceKm": 15,
+      "surface": "Strand + duin",
+      "terrain": "Open kustgebied, wind",
+      "bestFor": "Long runs, vrijheid",
+      "description": "Vanaf huis via boulevard noordwaarts, dan strand richting Wassenaarse Slag tot ongeveer 7,5 km. Terug langs zelfde route. Mooie open zee. Drink mee bij warm weer.",
+      "color": "#991b1b"
+    },
+    {
+      "id": "scheveningen-haven-bosjes-21",
+      "name": "Volledig HM rondje (haven + bosjes + duinen)",
+      "distanceKm": 21,
+      "surface": "Mix bos, boulevard, strand",
+      "terrain": "Glooiend, gevarieerd",
+      "bestFor": "HM simulatie",
+      "description": "Lange combo: Scheveningse Bosjes → Haagse Bos → Madurodam → Scheveningen Haven → boulevard → strand terug naar Maaswijkstraat. Test je race nutrition. Neem bidon + 2 gels.",
+      "color": "#7f1d1d"
+    }
+  ]
+}
