@@ -100,7 +100,28 @@ Een tweede dashboard voor HM training (race 7 juni 2026) met live Strava data, s
    ```bash
    npm run training
    ```
-   Open http://localhost:8000/training-dashboard.html
+   Open http://localhost:3002/training-dashboard.html
+
+### Live op GitHub Pages
+
+Het dashboard draait ook als statische site op GitHub Pages. Strava-data wordt elke ochtend (07:00 NL) ververst door de `.github/workflows/refresh-strava.yml` workflow, die `data/activities.json` en `data/strava-routes.json` regenereert en commit.
+
+**Eenmalige setup voor de live site:**
+
+1. Push deze repo naar GitHub (publiek).
+2. Repo Settings → **Secrets and variables → Actions** → voeg toe:
+   - `STRAVA_CLIENT_ID`
+   - `STRAVA_CLIENT_SECRET`
+   - `STRAVA_REFRESH_TOKEN`
+3. Repo Settings → **Pages** → Source: `Deploy from a branch` → branch `main`, folder `/`.
+4. Trigger de workflow handmatig (Actions tab → Refresh Strava data → Run workflow) om de eerste snapshot te maken.
+
+Site komt op `https://<jouw-username>.github.io/<repo-naam>/training-dashboard.html`.
+
+Lokaal genereren kan met:
+```bash
+npm run snapshot
+```
 
 ### Features
 

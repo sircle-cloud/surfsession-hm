@@ -8,7 +8,8 @@
     "dev": "concurrently \"node proxy-server.js\" \"python3 -m http.server 8000\"",
     "proxy": "node proxy-server.js",
     "training": "node strava-proxy.js",
-    "setup": "node setup-strava.js"
+    "setup": "node setup-strava.js",
+    "snapshot": "node scripts/fetch-strava-data.js"
   },
   "dependencies": {
     "express": "^4.18.2",

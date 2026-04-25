@@ -1,0 +1,39 @@
+name: Refresh Strava data
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # 07:00 NL tijd (zomertijd)
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm ci
+
+      - name: Fetch Strava snapshot
+        run: node scripts/fetch-strava-data.js
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "strava-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/activities.json data/strava-routes.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh Strava snapshot"
+            git push
+          fi

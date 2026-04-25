@@ -1,0 +1,67 @@
+[
+  {
+    "id": 3450745858883308500,
+    "id_str": "3450745858883308504",
+    "name": "Haringkade-Strandweg-Palacestraat",
+    "type": 2,
+    "sub_type": 5,
+    "distance": 6935.259264827387,
+    "elevation_gain": 20.200000000000003,
+    "estimated_moving_time": 2474,
+    "map": {
+      "summary_polyline": "_n`}HsgcYjF{@PInBlErA~D|Kma@N_AGEIU?ODMIIxQkq@bBrAFPRJl@N~@F`@?z@Ij@Q^BXGt@_@R?XRTv@p@|Cf@rCjCp@B^?r@GrCV|CJpCJh@z@`CbAbDZz@DCp@pBwLfPsI|KWPd@~A_EfFeF|GERF^@d@|@rFTnBF`AHlDGvAGZH\\Zn@C^D\\HLPJPCZh@t@z@~@z@j@Xn@RDHJp@FFaG~MUXLdBGTyDzIkCfI?|@GTGHE@OGGNk@}@_BsC}CyE_@_AeHgJkCuDcAgB}AaDY}@{@kEk@_BcAuAo@e@sAyAe@y@y@}@kDaFgEeHsAoCmEmHw@yBgAwBs@cA`CiFMSEk@D[JWbBPLNfAfBjBzDtDzGV^RWjBeEhIkA"
+    }
+  },
+  {
+    "id": 3354953144710325000,
+    "id_str": "3354953144710325170",
+    "name": "Chalets de Loriaz",
+    "type": 5,
+    "sub_type": 1,
+    "distance": 9898.57758122289,
+    "elevation_gain": 729.3749546650965,
+    "estimated_moving_time": 5018,
+    "map": {
+      "summary_polyline": "su{wGk}ei@EFIB_BUk@@UHQCi@WSEgAL[A{@SIGKCGJ@Np@n@FLZRBDAFCBEASKiBM[@WMoAmAaAGeAu@IPV~@iB}AqBa@aFcBbAfEDj@Nj@AZLb@g@a@a@MiBsAa@O?RLZXvBdAnEn@~BXnBLNx@tAXZh@`@dAbBeAcBi@a@Y[y@uAw@}@oBoBc@}@aAqAeFiG{BsBkAq@QBSP]@QEO@OLa@K]ZI?c@Qs@Be@KQIMWH[@YGYBi@Jk@Bc@DOIQkCkCYGOKMUEYKKm@MSK]q@e@]aBJGBs@UQBMNOJKCG}AI{@Q]k@_@}@eA|@dAj@^P\\Hz@F|AJBNKLOPCr@TFCZAZL`@^D`@Lf@l@bBDTCTTn@LPH^GRi@`AIKAo@Yi@m@}@[YI@ALFPJ~ACj@GFG?Qi@OOIAMMCB?LPj@A\\E?_@c@E@[XUDQHa@KG@[b@QJYGaA@p@l@VLJPR?FRA|@EXEFE?QME?KKO?MGB\\@~AVnBMCW?[O_@TJx@G|@SLSb@E@IKo@GGRAVF^?JBAHZCBOIYEC@Hl@?r@Df@Ah@QIQCy@f@KRGbACFOAWQe@KYMALHfAERIBg@CA@Uy@cA}BAK@JbA|BTx@@Af@BHCDSIgA@MXLd@JVPL@DGFcAJSx@g@PB^RXHd@XFPJt@V`@`@hD@ZCf@[vASjAItAKr@?RJr@d@|@HdALXV@NHd@Of@Ed@Bj@e@jAIPU\\AJCLMHOHo@P]PGV?^G`@NJ?Nm@RYH?PLFJFXZTLP\\VJ@`@AXMl@ET]JGVF`@Db@v@JJPH|@RRJRR~@p@`BtB|A~Bj@n@fCxDd@bARv@PpAHB@C?B@MIaAEcA[aCYiAIi@Sm@Oy@]cAg@yD{@}D}@uCcAgCg@{AE_ATTv@lArDnEv@dAh@bA|@hAdEfG`BhER?[gBm@gGi@kDY}BYwDmBiMWc@Us@Ie@LGMWP]X`@b@|@nBnBh@l@YoBo@_CeAoEYwBMY?U`@NhBrA`@Lf@`@Mc@@[Ok@Ek@cAgE`FbBpB`@hB|AW_AHQdAt@`AFfAdAZOb@I\\q@JFFKJBHFz@RZ@fAMRDh@VPBTIj@A~ATLG"
+    }
+  },
+  {
+    "id": 3354952865912484400,
+    "id_str": "3354952865912484498",
+    "name": "Argentrail",
+    "type": 5,
+    "sub_type": 1,
+    "distance": 9347.073084775657,
+    "elevation_gain": 751.5828442710422,
+    "estimated_moving_time": 5182,
+    "map": {
+      "summary_polyline": "ehtwGk|gi@JqB@_GE_AGOSQYTk@Vg@FICWc@MM_Aq@c@M}@Bw@O_AAsASa@Fo@X_Cb@cAX^qA`@y@\\gB_@c@i@dAI@EC@mBHq@TgA?KCEQFSR_@j@]^]bAIBEECm@EGG@S`@MJI_@Fy@l@kBBMAM[_@Uo@WAOKKkAOo@[m@_@YeAkAk@_AqA}@gBcCYQm@Ae@Ro@Ua@AeAsAqAkAuCwEqBsD]}AAq@e@y@Ie@}B_DaAaBc@}Ao@kASqAKmBc@_B_BoBQi@eA{@g@{AQw@i@wAGgDF_Ak@iCLu@YeBEmCMqAm@cAVe@N\\JWZZRs@JVbAiBDdBNUHd@ZcCUyBP_BZO?mAV[Hk@bAeD\\gB?QHMHD@A?UHi@Dq@zAiGBWv@sBV~AVz@B^L`@l@nAB^L\\TVl@bB\\xA`@h@h@Fh@?TDVND\\d@nBH`AR^L^`@PFj@HHNr@NJPhAd@j@VJz@PR?PDHPXJLAJHN@FDN?TRVAFBBHBh@Rj@nC|@ZD\\JR@^Jz@?JB`@Iz@ANId@BTARFP@\\EJKRGZZPZTTTB@BAJF^?NU^VN@DO^TV@JKb@[NRN^@DBEj@Nf@Mf@b@t@FROf@?`@HJLEF@Fh@X@@BEx@Bb@Jv@Gl@Rd@CFSHMA?FX`@Pb@f@`@@Lk@@YKu@N?Nj@f@P^f@ZV\\Hr@u@U[?_@F{Aq@c@s@M?s@jAW~@Uj@G^ORWHg@Bu@`@y@z@QDq@U[@c@SODa@v@e@Do@T_Ap@}@IcDTd@PXd@fAVnAr@TKz@Zd@Ev@N^W`@f@`AFjAj@f@N`AKr@]x@Cb@SZJN?Rg@TlA\\r@h@x@b@d@Tl@r@t@l@I`@Qv@QPLh@Ev@NRMd@On@[VQ`AC^BREJa@RmAL]Fr@KlBYj@]Zi@NUf@k@f@Qz@aAl@w@Nc@Lg@b@MTi@Fm@|@e@z@Od@Kt@bAAt@Br@_@tAWZc@tAc@j@Dx@`@nAOLDBFMLSD_Ax@m@\\i@N?LBJb@@t@ZRBVVtAEd@OPTH^M^Ap@g@NSl@Yd@KpAiAnDo@dCA^_@~CJx@FvBTjCALYp@RPFND~@A~FM|B"
+    }
+  },
+  {
+    "id": 3328383758038362600,
+    "id_str": "3328383758038362512",
+    "name": "0 km Run Route",
+    "type": 2,
+    "sub_type": 1,
+    "distance": 11049.020291873834,
+    "elevation_gain": 8.2,
+    "estimated_moving_time": 3930,
+    "map": {
+      "summary_polyline": "icvbIq`ib@I`DI@[b@MXE`@FZNPZpAk@dBrApBHXHjAaI|BURQVo@vAUVLdAS|AuB~FeA|DMt@?tFKpCQ`B}B`PKfB?`ABr@\\rCjAdIFPHFP@h@K~H}Ct@WFGn@OT?BOZAfA|@rCfCTHHAt@a@vAUdDuBFAbB?t@D^NnA`A^Np@BRA`@Kh@[T[Zm@lHiR@O?QeC}LGe@BWAQo@}CWy@o@yAGUGq@B}@RaAPc@h@m@FUNGdBkBVa@nAiDf@u@^Yx@WR?VGJKDMNCjAAZCLEpDkCnAo@L?xC`BnBrAfAvBh@`B`@hCKXZzC~@rQDPJJzCtAZRb@h@xGbLf@b@f@Rd@J|@A\\Kr@a@|@kApDcIHEJALPAADLAN{F|LKf@Gl@Cr@Bt@Fn@Lh@P`@hAtAp@lA\\\\AAXPZF\\@n@K\\MXW~HgOdA{ATONPBVGNSZ_KnRIVIfABj@x@lEZXRHnAJb@?ZCbAWfCV~DdA^?xAUhCm@~WwFDEABBs@q@JOCKOEe@_@kIMo@Ys@yAsC{CsGW]k@g@[_@Ye@K[CYBYjA{BVaA{AmBCOMKSe@Ko@C_@KAEGOGoALk`@wEaH_AkCg@mA_@iAg@{BmAc@[i@?SJoCNa@AcDWWOS[KYa@iCi@aBgAwBoBsAyCaBK?qAn@qDjCMD[BkA@OBELKJWFS?y@V_@Xg@t@oAhDW`@eBjBOFi@DYLOAgAqBy@Me@MwAu@k@k@u@}@_EoFwA{Ay@i@UYKU]MmAMq@@uJnCMaB?a@Hg@f@qA"
+    }
+  },
+  {
+    "id": 3252621963450523000,
+    "id_str": "3252621963450523280",
+    "name": "Ceintuurbaan-Aaltje Noordewierlaan-Zuiderheide",
+    "type": 1,
+    "sub_type": 1,
+    "distance": 52792.99065640931,
+    "elevation_gain": 72.03762399726702,
+    "estimated_moving_time": 7867,
+    "map": {
+      "summary_polyline": "w_a~Hakn^_@tCMj@Xd@HBhHe@RODc@QuBtAeAF]TgFJwDHuGAiAWaDHCDGDAd@Fl@@fJBJ@FLJDJAJMv@Nv@Gf@?fAB`FXlADjAAZIf@S^WfBsBTJJCPUFW@[Ia@WSo@{DK}@OuBWkH?_BKuBB]H[Ge@K@ISUcHw@mMUsBImA?a@OcAs@aIE{BLc@A_@AMMWe@mGWqCROG]N}@Dg@QmAGs@RyCAYa@cAhAa@rEaApE}AiCm_@zBm@|@i@Gy@HOXS^mAK}AAiBOaA]kAMeBw@}GFe@L]XUr@wAf@[tCM|@Sp@eATaATsA|@eDhAkBr@gB|E_Kj@}ApBkE`@q@hB}B`CeCpBcBp@w@h@gAhCjBlLn@t@KfA?hASnLaB|AIZGp@UzLaI|CsAvFkEr@}@dAkAFB\\|@PHRALKJQNq@P@l@^H@r@}AvAcAVBHGd@m@N]Rw@^u@Fc@?k@QuA?a@Rm@fDiEp@iAhA{AdA{@vAw@|Ao@`C{Bz@uA~@mBVf@~@t@`@RDTBrADb@X~@n@x@p@a@ZARHr@d@h@TRB`@b@@j@N`BOaBAk@a@c@SCi@Us@e@SI[@q@`@o@y@Y_AEc@CsAEUa@S_Au@Wg@HQp@s@V_@~@uBxCsCxCeDnHwKl@iAn@wBr@uE`AQx@c@|AiAPQ?LRi@Xa@hAiANKPG`CKvD@n@FVGTBRFz@`@vAb@bAP^AzF_AN?b@P`@H|@WxA}@bDm@fEI~AGv@@NNfCB\\WhDpDrH~F|@x@\\j@b@~@hAzCV`@\\^^Hb@@FK@{CJu@@UKgAA}ABOEq@Ja@N_@hBlBn@h@hJ~G~Ap@fAPHk@HSh@MLKL]bAgF?e@XDZ?l@PRLvBl@xFnBpNbEnAr@zTlHvA`@@Ix@ZXOHq@j@V`@gDLkBnAoKzAsLhAaKvBwP`@mCViEl@_IxA_QFe@l@w@XSJMDe@b@`@TZpAfAdAb@vKhCtBj@xAf@nClAlB`A`J~DrGzC`UbKpOfHdMzCtCf@RA\\IxEcF~D}D`@SZET@ZJf@^PTNf@~FvXb@bBJVDBrAHfFDv@nGv@jFw@kFw@oGnGKdN]h@@zIY|KUrE_@xSyC|AGxBAJGHBrCzTtN`gA|Fd`@vD~UJbAA~@w@nJKbCFn@f@nD~@dGx@bKrAtQNpA|AzPP|DHpD?zAMdKKbFWjIEpFPnc@@hLW~SCfFJHRZlk@xZbHfD\\Jt@LEr@BHPNBT?z@Lx@KdC@tCK`C]t@Or@iD`Qk@bDS~AeCvO?h@BPLRh@^S|@QZUJWC_@WcIaIsMcNoGuDq^sSa@K]D[RWf@u@pCt@qCVg@ZS\\E`@Jp^rSnGtDrMbNbI`I^VVBTKP[R}@i@_@MSCQ?i@dCwOR_Bj@cDhDaQNs@\\u@JaCAuCJeCMy@?{@CUQOCIDs@RA^MD?JFFLPp@z@|@vAt@lAb@`Ad@z@r@lPpHbCz@|Ar@d@NT?NC^_@VL\\REf@Bb@RZjDxC~B|AdHnD`a@zQ`SxIrKlFlItDb@^z@|AnAxCp@pAb@XhOzHzL|F`@D`BAr@HtAh@d@XhAbARZRf@Pl@Jj@J|AAp@ShEFtBLpATnA`@pAt@hBz@tAfAlA|@x@e@bBg@~@WXLv@J|A?l@Gh@Qt@wDnU_FtYaA~Dw@rCc@]SP[r@oBtHoDdLeDzJmFhNoCvHyItW_ChIiJtYO\\jA`BFt@GhBIXOAe@xAg@r@[HkB?_Sln@G@SYs@bCqLj_@qMbb@yA~EqH~UcBxFaBtEGHIB]TMPYv@Mz@Oh@Eb@@f@Wn@Ab@{AfFuDdKoBdHi@|AyHfR{EdLmA~B[q@qAuEgFiMKN{}@rd@bJdp@Y?s@V}YjPwLpFkH`EaBjA`AzGNNFTdCzPFz@RpANn@`Jbo@`AlG@RGRF\\DNPXf@\\v@^RRNXTz@NjAB`@?b@Gf@GVg@jAEd@x@tG@dBKt@{AfGMjAAr@@r@Dr@Hn@Nt@Rp@f@jA|GhJt@tAXt@f@bBlAdDPr@D`@HdByBxFw@lCg@rBaDhPa@`A]j@aAjAm@h@oBlA_Bz@yAj@kEjAuATcM|AkDToANg@PyCtA{BpBs@z@sBvCuBbDeDbGcD|EcAz@gEbCg@Rg@DcDAaC@aBWgKqCsAi@sB}AkCuCoBqAaAiAs@o@c@[k@QgBMiEw@wBg@gEu@c@Oo@k@GA_@?qAf@K@[Ga@Ws@m@_@O{@Cm@F{@`@sJjFwCtAu@f@y@`@cDdAc@TkBpAy@Xg@FwAEmB@_@GaA[e@U_Ay@e@y@gAyBeBoF[{@GGa@oBMaAEiB@UFWLMp@[FMBOUyAGaA@cAVsFByACqAMqAa@wBOk@KWu@sAoBaFc@w@_@i@cBcBqAoBmEcGeC}CkCaCi@_@}@c@uC_A_CkAO@iAh@s@Nk@Bg@EwA_@eA]Me@v@wFx@yIPqAHaBnBkT~@cHZeD^uGvFsm@RqAXmApBoDZ{@Lq@HwBG{@u@oEIcAC_AvBqc@"
+    }
+  }
+]

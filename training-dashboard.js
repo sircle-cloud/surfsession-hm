@@ -78,6 +78,14 @@ function updateCountdown() {
 }
 
 async function fetchStravaRoutes() {
+    // Static-first: gebruik snapshot JSON (gevuld door GitHub Action), val terug op lokale proxy
+    try {
+        const res = await fetch(`data/strava-routes.json?t=${Date.now()}`);
+        if (res.ok) {
+            const data = await res.json();
+            return data.filter(r => r.type === 2);
+        }
+    } catch {}
     try {
         const res = await fetch(`${PROXY_URL}/api/routes`);
         if (!res.ok) return [];
@@ -165,8 +173,25 @@ function pickRouteColor(km) {
 
 async function fetchActivities() {
     const status = document.getElementById('connectionStatus');
+    const after = Math.floor((Date.now() - 90 * 24 * 3600 * 1000) / 1000);
+
+    // Static-first: probeer snapshot (door GitHub Action ververst)
     try {
-        const after = Math.floor((Date.now() - 90 * 24 * 3600 * 1000) / 1000);
+        const res = await fetch(`data/activities.json?t=${Date.now()}`);
+        if (res.ok) {
+            const data = await res.json();
+            const runs = data
+                .filter(a => a.type === 'Run' || a.sport_type === 'Run')
+                .filter(a => new Date(a.start_date).getTime() / 1000 >= after);
+            const snapshotAge = data.length ? Math.floor((Date.now() - new Date(data[0].start_date).getTime()) / 86400000) : null;
+            status.textContent = `Strava snapshot · ${runs.length} runs (laatste run ${snapshotAge}d geleden)`;
+            status.className = 'status-badge connected';
+            return runs;
+        }
+    } catch {}
+
+    // Fallback: lokale proxy
+    try {
         const res = await fetch(`${PROXY_URL}/api/activities?after=${after}`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();

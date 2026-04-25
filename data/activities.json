@@ -1,0 +1,796 @@
+[
+  {
+    "id": 16853036131,
+    "name": "Lunch Run",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2025-12-27T10:02:20Z",
+    "start_date_local": "2025-12-27T11:02:20Z",
+    "distance": 15008.1,
+    "moving_time": 4673,
+    "elapsed_time": 5464,
+    "total_elevation_gain": 21,
+    "average_speed": 3.212,
+    "max_speed": 4.383,
+    "average_heartrate": 148.3,
+    "max_heartrate": 164,
+    "start_latlng": [
+      51.571888,
+      4.785164
+    ],
+    "end_latlng": [
+      51.564247,
+      4.773171
+    ],
+    "map": {
+      "summary_polyline": "odwyHuue\\\\FXTr@e@zC@fCW`AoFNg@h@e@bBo@bACtAXnAAR\\LnBN^HH^@n@_ADB`CbFpAk@fEiApB]rAGXXNDtA_@|Aq@d@If@}AH@dFhGNFSXCVJPt@P\\e@Nx@PZhAj@|@|A\\Zr@NzAu@vAwAd@_@z@_@j@IbDIb@Wn@o@|@cBFQFaAr@cBpBgD\\[d@Ih@N`BbBh@`@|Ax@Vw@LQ|A`@n@ArBe@p@]jCi@`A_@zA?xAN`B\\v@TxAv@\\j@tCnC^l@rAbDpBrGRfAFdBIhAQ~@CjAD|@NhAp@nB`AnAj@Z~A^|AIzB{@|AkA|A}@zBw@rBQlBDdCxAn@Vn@Jz@Ep@OZUfBmBr@k@nAW~AH`BnA`CtCh@t@lBjDrBfFr@`AxAx@jFfAb@At@Ll@OvB}ABMDs@K_Aa@oBAi@QeA@e@TWPJb@zAdAnFr@fCn@dD`AbCRr@f@bF@b@EnAdAzFhBnNXxA^ThGrBlCJZLFRDr@Ur@G|@AxA@jAJjA`@pB^bApAlF~@|Bn@|@fDbDdBfAlEnDbCtA~AnA`@^x@jAb@x@B\\UpAG|@Pz@Dl@Ol@Bt@Eh@S|@Ex@N|AFnBh@~ADj@@nCNbDMzMMdFP~@?t@Kn@Ub@k@ZmBPw@OiAsDqAsHEe@DiBKq@}@J[V[n@S`AEfAQdA_@^aDnAm@Ey@a@cCi@MDMn@OPm@u@iAwBo@e@g@OuGUcCCYJiCzBcAl@]?e@Qa@[qAyAuDaF_BeBy@iAk@]Qy@MsB_AcC?u@Q}AFaA?qAQ[iAb@q@Jw@i@}BiAcCo@iDyBoAi@qBeBaA]eE_C_BgAsBcAeA}@eAc@gCcBw@]m@IcBtA{@d@eBZcAEmDd@kCp@iBxA}Ax@gA^w@D}@KBGCK}@_@g@e@aAwC_@c@u@uAa@uAOiAs@iC]q@GMy@MYw@cBwG[oBs@kCcBiIm@iDYcAKy@UqDMq@Gu@S{@Cc@j@iGO`AQ~BClBj@hCF|@QdAUXgAX}Ar@wAX_A`@eGxAuB\\aBl@sEnAgBk@cBXeByAkA{A{@cD{AuDe@wAi@iAmBiGcCiF_CkDk@qBe@iAc@WcACyAVwGbCy@v@yAt@}@Ro@b@c@h@GT?P"
+    }
+  },
+  {
+    "id": 16997335728,
+    "name": "Met  Swagger Muts ❄️",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-01-10T07:35:12Z",
+    "start_date_local": "2026-01-10T08:35:12Z",
+    "distance": 9014.4,
+    "moving_time": 3226,
+    "elapsed_time": 3700,
+    "total_elevation_gain": 7,
+    "average_speed": 2.794,
+    "max_speed": 4.033,
+    "average_heartrate": 139.2,
+    "max_heartrate": 158,
+    "start_latlng": [
+      51.571955,
+      4.784839
+    ],
+    "end_latlng": [
+      51.57174,
+      4.784756
+    ],
+    "map": {
+      "summary_polyline": "}ewyHoue\\\\H\\?p@FHK@_@BAVAh@DbAANB\\AXEn@@v@KFIEKASJw@LSZ[C?To@FcATg@ROz@Yd@U`AR\\?t@T`@Bb@A@Cj@`@LfBDLJNJFVFBALIJW?MHMVKJDZv@Zf@`@z@BNADFXHHhEk@nA]hBYFKBDdASP?h@TtBc@x@g@l@GVmARMVRPV~@dAzBzCGPBj@vAn@pBt@LLn@lAb@b@NJP@TCj@Wj@a@b@a@z@m@n@c@^Qf@KfBG@EJAFF\\?LCFIJA\\U\\]d@o@h@gADi@?WFYTk@f@gAnAwBh@m@`@Ed@N`@VXXd@j@bAv@hAb@LER_AJMB?p@\\HBj@Hd@Ad@GdBg@h@[h@OrCk@n@C`ABzALb@HbBn@~BnBd@d@d@l@^ZDv@u@fBCXEzBCtBJzDCz@TlBMf@_AhC]t@s@rAsBhGu@bBi@bAa@|@EVg@hACd@QV?`@@JFJXRd@Rj@L~@^p@NvAd@l@NhAd@l@Lt@J~@RH?NN`AvHD|@Nv@J`ALrBNv@PhB`@zC|@~Hh@rDHbA\\fC`@~FTpBPpCAn@@n@_AnBKDyAFgANuAB]Ba@FcABoABg@Bc@?{AL{ADg@FeENE?UVEI_@MYNc@AeCPuA?yAFq@Ja@E_@YgEoEm@w@wBaC[g@cAoAiAeAgBmBmAaAi@g@aAs@[CwAb@e@Ba@JQEmBcBs@g@eBmBMU}@qBWs@u@qCq@uBg@eBSk@Sw@s@}B_@}@{AmCq@{AcAeBsAsC}@_BGCG?g@Jc@Le@Rm@RmCb@Q?QEuAo@k@a@e@o@_@_@k@u@c@_@g@[CG[IGKYUCEIg@Cm@JoC?gAWyB?iAWsBMmBKa@IAU?c@JM@{@VMCSi@m@s@Sq@WmBc@}Bw@iDS_CEGMm@Ku@GWUAe@HW\\Kp@Yj@]\\WLy@ZiAF[Ng@W"
+    }
+  },
+  {
+    "id": 17008955522,
+    "name": "Morning Run",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-01-11T08:49:02Z",
+    "start_date_local": "2026-01-11T09:49:02Z",
+    "distance": 7677.4,
+    "moving_time": 2657,
+    "elapsed_time": 2975,
+    "total_elevation_gain": 7,
+    "average_speed": 2.889,
+    "max_speed": 4.14,
+    "average_heartrate": 138,
+    "max_heartrate": 152,
+    "start_latlng": [
+      51.571907,
+      4.784986
+    ],
+    "end_latlng": [
+      51.570861,
+      4.784718
+    ],
+    "map": {
+      "summary_polyline": "odwyHwte\\NF^JJI@a@JGh@In@@b@Hj@Bt@Ot@Cf@EF_@JYLoALs@d@oBXWvBe@J@@C^Dr@ErA\\h@?ZRRdBJ\\HJRHJ?LIb@q@LGFB`@bAh@fA^fAFJr@U~A_@NCZ?r@INMHC@Ef@GrBe@XCVB^Td@Cr@Kh@Of@Sh@INGZyANKD@ZVdEjFKl@?DJPdAd@\\HhAh@^Z\\r@j@t@ZTHBh@IP\\T?h@ShEaAn@UpDq@nEgAnBWhB]lBk@r@Kh@MXH\\pDFREd@b@dHHvBAxA\\|ICf@NlDDvBJTb@XVJXBVLd@L`@RRT`@TjBv@TD`B^d@Rv@Jf@Lp@VdCt@d@Rh@Nd@Pf@Nh@HXJz@Ld@RHj@Fv@Hp@FbAf@zENbAAl@YTg@RcBf@aBl@mAT_Bn@}BfAiCt@gAf@w@Xm@PaBn@g@LkA`@c@`@Kf@GdAO^{@ZqBh@oAd@yAb@kAb@c@FkD~@UDiA`@O@aBb@e@PKSWGCEOi@B]Ec@CAU?MH[^EB[BW^[T[JqARWHG?_@Ia@a@aB_C[y@w@eBo@mBq@gBiAwD}@eCkAkC[cAk@kAa@q@e@o@o@wAIIYe@Yo@u@wA[_@I_@EIGAg@J}C`Aq@Jk@Pc@F[KmAk@a@[k@i@_@c@a@m@c@c@iBgAOWGeATkD?]Iu@GOIo@KcC[iFCEOEyATe@L]DCAWu@SYUg@_@yAQmAWkAG}@Kk@u@cCO_C?u@[g@[?e@PQPKl@g@tASPI@YP"
+    }
+  },
+  {
+    "id": 17202648877,
+    "name": "Ochtendloop",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-01-28T07:19:28Z",
+    "start_date_local": "2026-01-28T08:19:28Z",
+    "distance": 8255.8,
+    "moving_time": 2733,
+    "elapsed_time": 4563,
+    "total_elevation_gain": 18.7,
+    "average_speed": 3.021,
+    "max_speed": 5,
+    "start_latlng": [
+      52.108463,
+      4.281057
+    ],
+    "end_latlng": [
+      52.108485,
+      4.28118
+    ],
+    "map": {
+      "summary_polyline": "_f`}H}`cY\\j@VNC^HLHDBWAQ@Kd@o@LRZzATLZBDGH@^zAFHf@BZRl@NZBRKRC^NJErA?XJx@J\\CFF\\DdAo@^ENBNPP`@\\VXj@ZIPYXYRALSf@[tAgBr@kAd@e@Vc@b@i@Ra@fBwBXQBMVU`@w@bB{BDGGOd@_@b@m@RKTYZ]^u@NE~@iArBaDd@_@`@q@\\a@?Id@o@@Op@u@FSd@e@\\A^a@Zi@?Qd@w@NKh@eAtAeBDMjAwAj@g@p@uA\\c@LW|@{@hAwARO^k@^[Vi@bAuAPO~AsBb@e@fDmE`@s@NKz@qAJEH?Z|@TTN`@JLn@~ALd@`@n@Z|@~@fBBVVb@X|@r@vAn@bBhBzDh@rAx@dCj@PVXh@d@|@d@jB\\l@BjAf@`AHZXJB`@KP]Dq@Jy@JgBDQAe@DgAHWB]DKFBLu@bBoB\\s@t@gAb@a@X_@LZp@v@VGn@q@\\e@l@g@RWHW^HV|A^x@~@iAx@kAHIH@NWf@k@LUFATc@f@CBKMBMUFCJB?LC?@HCQGC?HYFm@nAk@p@s@n@aAxAUVEA}A}Ee@eAq@sBYi@E]Mc@k@mAICWs@u@?YGGQ_@Ei@`@ITo@v@SFICEIEa@Os@Ms@_@sAIy@MU_@yAQgAk@yBq@b@q@v@OLm@Si@oBM_@OeAU}@Cg@EMIi@a@cBc@DCGMAo@n@_@Fq@^GPKJENGa@OMm@TUj@YlAO`@[|AK@_@`@uBtCKDq@z@OVo@n@kAbBUd@ERS`@KCEO[Gi@Da@Lq@`A[bAYj@_Ad@yApAyBd@mCdAw@KSJMn@c@bAWX_@PIC]p@Up@Mn@Q`@_@h@Wl@oAjBa@`Ae@lBSh@UNcCrDKVIIYw@i@eASk@i@M{@EaAa@KVU\\g@VSAMK[CKl@Yx@g@Zq@D]GeAw@e@m@k@DOM_@Ki@Ag@`@_@HaAf@g@`@e@LkAp@IAMQ}@`@eBdAUDw@l@{Cl@]Gc@h@Sd@eAvDG\\i@dBEZQZ_@Nc@G}@fDGCUs@e@e@a@{@IGODKZ?\\QhAEv@YfB]\\_@Va@f@"
+    }
+  },
+  {
+    "id": 17229457318,
+    "name": "Afternoon Run",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-01-30T16:28:21Z",
+    "start_date_local": "2026-01-30T17:28:21Z",
+    "distance": 6048.1,
+    "moving_time": 1984,
+    "elapsed_time": 2747,
+    "total_elevation_gain": 16,
+    "average_speed": 3.048,
+    "max_speed": 4.871,
+    "average_heartrate": 147.2,
+    "max_heartrate": 167,
+    "start_latlng": [
+      51.571909,
+      4.785031
+    ],
+    "end_latlng": [
+      51.571778,
+      4.784782
+    ],
+    "map": {
+      "summary_polyline": "kdwyHgue\\j@J\\}@TC@FLIHAvAD`BGp@@d@DDKF[Iw@C}BJu@d@c@TEv@e@b@Ih@ELCRPZBd@ABJp@?PFXDl@@HDRf@L|@Tj@VTNIB_@Rc@L?|@jB|@tBFHVEr@W|A]d@InA]bBWZKr@QXHNJRFd@Kd@Eh@Sb@Sp@MJOZ}@HKJAXTpBnCpAzABJGl@HPp@VbBt@h@ZVZz@rALJd@Lb@KTM`Aq@~@{@d@[~@c@j@M`@CfBAd@Gb@U^c@^o@Xm@N_@LeAXaAZu@j@gAh@y@XSX]RGJ?NB`@RTPj@v@^\\r@h@`@Vd@JVvC@Z\\bEP`BJ|C?ZANBpBf@`HLhF@pBJvC?|@Kt@U@G@IHO?iBy@{Bc@e@Qi@Gc@Qe@I_ACmAk@_@Ca@BKDy@x@aA`@g@AoDYe@?g@DkAfAQTs@lA_BpBUd@SRa@NgAlAm@X_BLkC|@g@DSFgALyAf@k@Lg@F_@?e@Ha@Ne@Js@HqAb@e@BqAIg@U{@y@cAsAoBwAm@]a@[MmAB{FKoACaAe@oHAECAy@?MHUFy@PYCOe@Wa@Qe@[{AKs@M]WqBSaAUc@MMg@gBE}@[eCi@JqAfCg@^o@\\a@Le@?K?k@Mc@C"
+    }
+  },
+  {
+    "id": 17268863318,
+    "name": "Ochtendloop",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-02-03T07:10:40Z",
+    "start_date_local": "2026-02-03T08:10:40Z",
+    "distance": 8105,
+    "moving_time": 2513,
+    "elapsed_time": 4062,
+    "total_elevation_gain": 12.5,
+    "average_speed": 3.225,
+    "max_speed": 5.16,
+    "start_latlng": [
+      52.108474,
+      4.281209
+    ],
+    "end_latlng": [
+      52.108222,
+      4.281793
+    ],
+    "map": {
+      "summary_polyline": "af`}HsacYb@r@@HAPBVNPFGBe@^a@NFP^Lz@dAf@Th@F\\DBf@Bp@TXBJHR?LFTC~@H\\H\\Ip@N|BH@GJIv@a@TFVRJRL\\PPLTTPNAJMRg@TQTCL[JEl@k@^o@zBwCT_@p@s@Xo@hAwATMRWDOB?v@qApAuAP]PONYrAaBlEcGz@}@f@{@^e@Tc@PSpAkBX]j@]d@m@BKY{@CCDQVa@Lm@Tm@TuAR_@TeAZUVc@TSP[BIAMUIEK?QVg@Re@n@aAT{@b@aAb@c@RKj@y@Ja@@[JUPMh@L`@Cz@a@`Dw@h@WrAkAl@[RWRc@\\}@t@aAXK^IP?THHL`@|@HJ~@lBTj@J`@^v@Tn@p@vAjAzCHHZx@j@fA`AfC\\p@Xv@~AtDZ\\RDf@t@nAj@xBd@h@BTPb@H`@PdAJp@PDCNa@Bo@Fw@BkAFS?]LiBBmAFOVKRc@`@SNQJYVSDMH?NORGh@pABDF?V]PIl@m@FQPITk@dBmBZa@Ra@LJZj@Pd@DVTd@V]\\YP[^]\\m@xAcBt@qARH?DFDGHOCITACWNK@CHgAbAaArAQNUXQLCLUZAHD~@Pv@FJBh@GPOJe@~@MNQZSRYj@YXc@z@UVQ\\GD]h@UJSVKRa@d@g@x@KTcA~ASj@k@d@O\\_@b@{@xAq@|@YXUd@c@v@CJEHG@[^EPYXQZGKW^Mn@KFm@~@U`@QTKRIHGNw@bA}@vASVk@f@q@|@_Ap@OFeAp@]Fa@VUTK@aBx@YH_B~@]PWHQ?aBx@sBr@MHSVU@QL}Ap@g@ZIXy@rBSn@_@z@i@vAIJG\\Yr@ILE?YWaAg@MQQIY]uA_Aa@_@SIk@m@UOUUmAs@MOc@Yo@s@OIi@a@SUOSIU_@IIIu@]EIkAy@{AqAk@Yi@g@g@Si@EQIU]Uy@EEm@aBCAa@_BYo@ESMUQDIEWRg@Gk@Ji@?EBSb@cAWg@[I?[a@g@mAi@cAi@s@e@a@e@{@Y[S_@CSQ]SKOQYVSFIAi@[[Ya@yASg@m@q@WOSUKWi@NSOCIEEGDIh@Wx@yApFMRCPUVY@WEIHy@xCY[M[GEc@RS@YGM^OdAOd@I`@UZWX"
+    }
+  },
+  {
+    "id": 17336478599,
+    "name": "Morning Run",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-02-09T06:52:20Z",
+    "start_date_local": "2026-02-09T07:52:20Z",
+    "distance": 7771.8,
+    "moving_time": 2714,
+    "elapsed_time": 4810,
+    "total_elevation_gain": 75,
+    "average_speed": 2.864,
+    "max_speed": 6.4,
+    "average_heartrate": 145.6,
+    "max_heartrate": 164,
+    "start_latlng": [
+      52.108419,
+      4.28102
+    ],
+    "end_latlng": [
+      52.108324,
+      4.281418
+    ],
+    "map": {
+      "summary_polyline": "ie`}Hy_cYj@bABi@N[REPVR`AHPd@CN@Rn@Vj@`@F\\JZD^LdAB^Db@Bf@FxAZrAD?ETEh@YV@VRD?VXN@VV\\FVKJK?E^MB@v@k@\\i@tAcBJSh@o@`@q@`AsALS^e@P]LK\\Ot@sAPS\\e@`@a@~BoCfAwAf@k@`@o@z@cAh@y@nAwA`B_D~@kA?CVYZKt@}@BG?KQ{@?MVYv@yCp@sBfAgANa@R_@l@UrAaA^QFGLUTSpAs@dAw@RQZc@T_@\\_@j@aAZ[r@_Ad@aADWJa@lA_ANY^aAf@u@LY?GZYbAOj@TPd@n@dATh@V`@h@lAJNp@rBt@~AdApCt@zAdB~D~B`GhAv@`A~@d@Nd@F~@Vh@@v@XLHh@?b@Rd@H^UL]LiABy@DYBA@_@?cAH{@@aALIHYRYd@c@t@aA^Ob@Ab@x@NLDJFBPMNUNUJ]RWRSJFz@rAPJ@ArAcBB@ZQXY^WVYh@w@L_@t@gAf@m@z@wADAPYw@hAkAfA[`@{@xAWX@TMb@Ht@Rv@@FCTGT{@vA[p@m@x@MHe@j@Yf@Wj@MHUb@oAbBg@z@cAjAa@p@kA~AKPO^g@x@qA`Bk@fAiAzA[n@KZGKWVIb@IP[ZQXMXa@f@k@|@qCvDsAzAq@h@mB|@K?YHWZYXsCpAk@\\gBp@uBfAo@VS@}Ar@CS@EB??I]n@_@TsAf@g@]eAgAo@g@{AiA]Mc@g@_@]E?o@]SFKJq@pAOl@Ur@ER]jAa@dAOJg@Ja@AeAe@eAw@_@c@[i@s@m@a@WgA]m@c@[Mk@QG?c@aA[e@g@Q_@EKE_@[k@cBwAaFIWIGI@OLiAvAKRYX_AvAUV_@TiApAQZ{AzAoAdBaAzAiAfAIC[Y_@e@MQCSQSu@f@MFIEI?UJOD[I]QKCe@CQDUAg@WWB[KWBSHMACCsBDSi@SAOCCCSu@e@m@KKOiAUe@Ek@EGAAG?KDe@hAUSSY"
+    }
+  },
+  {
+    "id": 17359944739,
+    "name": "Morning Run",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-02-11T08:19:45Z",
+    "start_date_local": "2026-02-11T09:19:45Z",
+    "distance": 7047.4,
+    "moving_time": 2321,
+    "elapsed_time": 2661,
+    "total_elevation_gain": 48,
+    "average_speed": 3.036,
+    "max_speed": 5.6,
+    "average_heartrate": 148.9,
+    "max_heartrate": 167,
+    "start_latlng": [
+      52.108515,
+      4.280951
+    ],
+    "end_latlng": [
+      52.108763,
+      4.284733
+    ],
+    "map": {
+      "summary_polyline": "ue`}HojcYNIX[LE@CFO^eBZ{@TWb@@d@d@VRHIl@gCPKf@?Zc@P{@Ru@L[d@yAF_@Vu@NS^eAV?RYHEV@HK`@eAVkAXy@lAyCZg@NK?BRu@b@aAT]f@UJIh@}@F_@@eCXs@LeAh@iBB}@Fw@Ri@TWV?NHb@DRNf@Df@Hp@?b@J`@b@Vv@`@tBHfAI~@^v@AACfAUfAg@xAIp@A~@N`AXTTHZC\\GbA]P[L[?o@So@Ku@KyCP{@z@sCX_@dAWJKLi@Gu@Ku@M_@aBsHCG[[a@?e@Vk@L]UIA?A[H_AFe@CcBSc@[q@{@Ko@Bq@v@yCJgA~@cETo@XwAfAgDhCcGVeAHu@Cg@UWYe@Mq@QWa@JYIg@Ye@G_@?}@IQ@_@OEUBSBEp@q@|@oArAeDFUJu@AMIIGCCC@cBXeBw@mACQ[s@[Me@a@[I]Qo@o@q@iAo@wA_@i@GU]Y]Nk@j@a@l@]m@Oi@ScAEg@A_BWu@]UeBRg@AUM_@k@Su@MwC@g@O_A]q@wAqB]g@g@cAYOg@Na@@a@[_@o@cAmAc@QUXk@jBYfBWr@Ob@?JG?EBs@~BEN?l@Tx@Xp@Nf@ZpAjAxAh@`AVr@h@f@`@V`Bz@f@Rx@TT?@EB?@Ib@IVIJAf@DV\\AROh@a@d@w@tAMtB]pBS|@ALJh@Rj@Zf@GFZHFCJDR|@BVQl@HP@TCDEA[U{@@c@^y@~@e@p@CFg@z@@J\\\\LDj@FVN@L_@l@_@b@o@Ra@n@GZQN[J]j@Gv@?VGf@OXIdAMp@Sl@I^IrAMl@O~A?`AVxBNvCOv@G~@Dh@P^HHVrAAHWv@WhAa@pASlAU|@@FHB[dA?HS|@cApB_BxBi@fASp@i@jACVJR?ZkAnCo@z@EL"
+    }
+  },
+  {
+    "id": 17468214310,
+    "name": "Ochtendloop",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-02-21T06:51:50Z",
+    "start_date_local": "2026-02-21T07:51:50Z",
+    "distance": 8290.1,
+    "moving_time": 2704,
+    "elapsed_time": 3817,
+    "total_elevation_gain": 12,
+    "average_speed": 3.066,
+    "max_speed": 12.36,
+    "start_latlng": [
+      51.571796,
+      4.784732
+    ],
+    "end_latlng": [
+      51.570602,
+      4.783971
+    ],
+    "map": {
+      "summary_polyline": "oewyH{ue\\f@LP@NJH@HEJa@RKFCP@d@GRBh@CR@z@MpADRDJCFGDa@@u@FUPqBHWRYVONQRIDKZKBEb@Kt@Nn@AD@HHX?VJTBTC^FJV@LDLCZHv@NX\\PD@NKJQDSRUHQF@\\dAj@lAZfAJTD?POnBYhA[lAMfDw@\\@\\PZANGh@EVMPAPMD?POJ@\\ETGFMCSVw@BELAd@h@JPDBDLp@r@FJNL|@lAXXBHAJIVCLFN`@HV@PRl@TLJH@n@VRNTl@d@x@NLXNND^Ip@WJMLGXUTYx@m@TOjAe@F?DH?Ld@^JVLBDBDRBHD?HGxB_@RI`AQXOx@MFEr@IxA_@`BYf@O`AQNGf@EdAWFBBPBfAJ`ADLR`@P?VH\\?VHJ?HFj@HFFLDRRl@dAHTTf@h@r@NHJL@HHJPHF?NFTRXNHJNBHDX^J?XVb@LXVPFRTLDlAx@ND^VBFVJVTPJJ@TRPVJDHPNBJJJ?NJRBRL\\p@T^Zr@T^L\\d@r@`@bAJFLRp@\\H?\\X\\NPBFHPF`@Xd@NFFPDTR`@Pb@NXVn@TVPD@^XNBLJH@FHPBTV`Bp@n@^j@JFDRv@AlBCp@?j@IrAMp@@Za@`AKj@EFCHE`@DHJF?p@EJIAEDSXM?KKGYMUEMo@y@KC_@HU@EPEdAE`DALGH[Gu@C{BWICGCQ?WKg@Ci@MS@SA[G[YQFSASHa@Tg@JOH_@L]TcAZa@D[HkAf@gBh@MHI?cA`@[TYB_@ROBQJUH[RSJaB^]PMBUJUDwBx@QTITGl@?b@GXOPg@TuAZe@Ng@DYJq@PSTUHEAeATkA^m@V_@B{@XYF[A_A^GHIFgATWLaAR_@LO?WGc@LQ?SIWAm@c@OAQBKDYAOJSAe@]KEQOQUUOaAwASo@[s@Ea@q@cBI[IQY_AIUSy@k@wAUw@KUGWMWMg@GMq@uBMO]{@sA{BCMSe@_@a@KUcB}CIWSYGO[YMQGCMACEMEu@Ry@NMHKA[HSNW?SFa@@GFSBWIMDGAUIMKo@YIK]YCQMI[a@[Wq@w@USKEMMc@YIKOEGOGYIy@Bm@Jw@Dq@@sAOiAMyAIc@Ca@Ga@?IGc@Cm@Ik@QYEAmCf@GEEUO]OMUa@GSM_AM_@UsAUeASmBe@eBMqAOy@A]GIEeAEIOAYJEJK?Wn@KHCPMNKTMZu@n@"
+    }
+  },
+  {
+    "id": 17484949343,
+    "name": "Eindelijk weer wind 🤩",
+    "type": "Kitesurf",
+    "sport_type": "Kitesurf",
+    "start_date": "2026-02-22T14:09:18Z",
+    "start_date_local": "2026-02-22T15:09:18Z",
+    "distance": 20014.8,
+    "moving_time": 3104,
+    "elapsed_time": 3297,
+    "total_elevation_gain": 93.5,
+    "average_speed": 6.448,
+    "max_speed": 11.867,
+    "average_heartrate": 103.1,
+    "max_heartrate": 140,
+    "start_latlng": [
+      52.104526,
+      4.26589
+    ],
+    "end_latlng": [
+      52.10449,
+      4.265614
+    ],
+    "map": {
+      "summary_polyline": "ux_}Hgu_Y]dAWPiAxCs@bBq@nAKHA]wElNoAjDMVI?D_@pB{B~@uApByDbF_LXkBUEKJeArBi@n@YI]g@OPyAzDiBxGi@lAYL?aAvFgJfAuBrAsC^oA@c@OIuCrDi@PYQQNgBzF{@tBkAtBw@hAs@xBGDRYbFqDtAwA|DcGfAaCd@yA?e@S@YVwBpCa@?i@a@UAqBdE_BbGq@dA{AdGc@~@MF@SnD_E|B}C`AcBzBgEhAiDr@aBH}@AMOCk@HaBG_@X}@nBeAw@eA~B]LFS@w@UXY`@o@lBiBbH_DlKMLDSnHeFxDmE~FqIxAqCFq@SFm@t@o@`BQRw@XwAdD[AS]QEKN{CnJeA`Bk@lAcA`DK?L]`LaMhAmBf@i@vAuCr@u@R{@c@p@kBrBeA~@cAw@EBmDzKc@bAa@b@HYnAgAv@iAfGsJhBsDFg@oBnBeBjDsBlGyCzHU@m@uAnC}BnGkGjEaIHO?_@MEKXo@fCyArBmAhCs@`C}BdFKEi@gAvAgBlCiEjDqGN_AGUIB}AlBu@|AgEvLk@x@KKDYxBuC|CgFrBoCj@iAHs@QEy@h@MRwD|H{AbCs@e@a@T}@nB{@|@oAxDK?L[rB}AzBiC~CgFhEoGh@oAJk@ICmAbCyD|F_A_AyBxG}@fDg@pASIDa@nAmAfAaCjDcEtAyBXm@Dc@C[Y?GJ{@nC[^q@]QJe@jAu@p@cA`CoBpF_@?[d@EW`AiAx@k@jCoDlEeErBeClAgDF_@GWUHi@jAqA`BoC~F[?e@q@WImAlD]nAaAi@sAtDk@m@ME{@`BIC`BwBlCsBfBmBfHmIZs@XoAf@cDKEY^mBrFo@bAGAPe@tDoG?KO@kApBi@l@I?_@a@YLaCtFa@vAKDvEgGbA}ApA}BBSZU@BY|@q@R[h@iDfJaEbJgAxCaClEw@`@MOH[rC_FnImMpDqHl@mBBUG]OAU`@mFtM[Zu@g@UFyB`H]l@EMnJiPrCuG?QM[QDYb@q@vBkAhC_CxFU?c@_@OBa@b@mA|C_@Zm@vAm@d@{AjBc@LGSDU`Aw@lBkChLgQtAcCHu@c@ZeAjBe@XKTeE`LKLq@s@WAsArDMFGQxI_MxAaDr@cA?S}@dBwCvHm@fAkAkAkAnDWTEEjL_PlAiB@Qs@l@oCzF_@V_DbH[BYc@e@Oi@nBOVZq@dEuFfFaI"
+    }
+  },
+  {
+    "id": 17493762969,
+    "name": "Lunch",
+    "type": "Kitesurf",
+    "sport_type": "Kitesurf",
+    "start_date": "2026-02-23T12:31:03Z",
+    "start_date_local": "2026-02-23T13:31:03Z",
+    "distance": 9273.6,
+    "moving_time": 1569,
+    "elapsed_time": 1629,
+    "total_elevation_gain": 24.4,
+    "average_speed": 5.911,
+    "max_speed": 12.96,
+    "average_heartrate": 100.8,
+    "max_heartrate": 137,
+    "start_latlng": [
+      52.104517,
+      4.266151
+    ],
+    "end_latlng": [
+      52.104416,
+      4.265827
+    ],
+    "map": {
+      "summary_polyline": "_y_}Hsv_Y]hAICEBQRKFYTg@V[VQB_@Pg@`@o@VwA`BA_@_AfAQHM@DOuB~CoAzB_CxEeBpCAMNMJCnDa@rAc@vAq@tFuBxAcAd@UpAo@p@OxB_AHKBGAIO?[Tw@p@g@A_@o@QFSNm@p@s@l@_BvBi@V[\\]b@k@LIDyAxBGFUBCC?EJK|Cq@n@YtAe@bA_AG@KIAGDM`@G|CcA|@Qn@UFGBGECm@h@_B`Aq@UM]MSOQ[S@BEDWp@Q^u@nAo@|@YZKDu@cAG?OLY^kAvBSPWBKELBXI@GMB@CQE?Gt@Ib@MXAvAObAQ|CkA~A}@hAi@jAw@bCkAPQDUCGIGE@_@RaBpA{AxAQFMIGBg@h@uBjDQDe@b@{@nAa@^KRKJAERUv@S\\MtCkBpAaAz@w@r@}@fBeCbAcAJMJ]KIa@@KBYPc@`@c@h@gBhBwAjA]BMK_AqA[g@RTNLb@?JQrASrAm@bA[t@k@pA_@DIAEM@IDcDdD_CfCo@^WYS[e@`@]Ju@v@iBrCc@x@u@`AfAk@tBwAnAk@dBm@nBmAfDiD|@w@JQJc@KSI@MHq@t@o@TKF{A`B]DIMEUMQKFm@nAkApBqBxCeAvBIHGB]CDSFEnAa@fAi@fA{@pBqA|AqAvBkCz@s@b@i@Dc@AKQ@a@Ti@f@WJ[?[Jc@d@mAdByAhB}@tAwB~BmAhCGFE@CEDGpDgAzAaA|AsAlB_Cl@w@Zk@n@y@t@w@DKKQEAQJeC~B]XyAzAqA`Aa@JKIk@i@G@[?OPi@tA_@h@_@|@IVUd@[b@QP_ANEI@ENOnCaBpDsCr@y@`@[`Aq@fA_An@]CQECSLc@j@eAfAgArAkAhAyAjAw@d@I@GCAI@MVw@pCcMb@}Al@yALq@NmAFW`@_Bb@mA?S`@w@Pw@"
+    }
+  },
+  {
+    "id": 17713127075,
+    "name": "Ochtendhike",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-03-10T07:56:22Z",
+    "start_date_local": "2026-03-10T08:56:22Z",
+    "distance": 6055.2,
+    "moving_time": 5811,
+    "elapsed_time": 8874,
+    "total_elevation_gain": 162.7,
+    "average_speed": 1.042,
+    "max_speed": 7.74,
+    "start_latlng": [
+      46.037132,
+      6.935079
+    ],
+    "end_latlng": [
+      46.037247,
+      6.934553
+    ],
+    "map": {
+      "summary_polyline": "{v~wG}rii@YYK?GQ[Qa@EqCRUG{@}@_@m@Su@QuAQWyD}A{@y@y@E_@SW]uA]BCa@Ck@Sa@XKEKDEMUAMJMGCPMQOBMK[^CGG?uARQGWc@QCKKKKEMg@KENSNq@HGNQNuABg@II_@kAo@GDGIW@?GB@IG[Fo@SEFCGG@BCCCHB_@YKAAGKA?Ea@AFEOEIUm@e@IBM_@BCCGUC?L?SIGmAc@MBEK_@Qo@AKF]GOLg@GGFOC?FEGDA@O?NEM?H[Di@\\@GSBIIEJ_AEIFIIADO?GGIFOKCICJGCBGGEKHKT@DGUFECHM@F@HO[AEIB[ALCGHCBb@DU?HFJG@D@AGo@@XERV?WW@DACHOKPLHSMF_@MIPJRKGGME_@FBI?DIII?OCPOSMDR[VIAUL[R@JIL[FA@ICBFCEKb@K?QBH^WL?~@cADo@NQn@Aj@INOVi@l@mBBo@CYJIBHGIDEFCAHPKJXJKGPBFLC@JP?NLFOCHFGAGLY^l@NGHFDEFLCRLEb@LFNABJH@IJB@NDB@G?PP@PVX@ECDHAEJA?HFALb@^PRVh@N^NHJHE@NLB?DLFHEHLPA^NBIPRZDT?FHf@RZ?PJRKDXTK?LPHPBCJDCZf@|@v@d@NLC^^ADVJTBHP\\Jd@BBE@Dx@VJCE?ZNXDNIFJ@IBA@FHELL@IF?LRBMDB?IEATTFG@F@KDJG@BD^KD@ID?F\\FFDFXBQBDFWBPCCFBE?@DL@TRHCAF`@REKHHC?@FH@HND@AKTJAHRMGDFDANJ?HCCDFNRHBEJRFC?OBTFCVH@JLELL@ITLJEFNEABBECBERFAET?HDCFC@FFAEFDLCRPAED?NP?FNEBXVCDVHEH\\DFPDJTVLDVTEDNNHAH?GDAAPEADMFADFC@@K@JHGCDd@HJ@JIFVAWMFDG?LGCr@PFAQIj@DHHd@?HJPGBBCA@Jn@NzAx@bBh@jAJTJNA@KA^DJ@KP^RDFN`@RJXVRHH?JF?HVLJPf@XHTRP\\hJlJCADC`ChBAZS^EVe@r@EPSLy@i@ISm@w@[QS[OE?O@FLEKEBCGC@IEE?SG@FEEHFFBSCVBIB?GAD?BKG@@LBQI?DA@Z?GFFLb@V^E@DCX`@BVOn@OViBfBOWMBYWWk@ADBACBDCL?WFh@MUNGMAFHBHGEHKALES^A`@Ik@NCEK@GBBMWKD[i@_AaAeA{@K]MHDLAU"
+    }
+  },
+  {
+    "id": 17713129750,
+    "name": "Ochtendhike",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-03-12T08:46:35Z",
+    "start_date_local": "2026-03-12T09:46:35Z",
+    "distance": 1999.2,
+    "moving_time": 2397,
+    "elapsed_time": 5025,
+    "total_elevation_gain": 49.6,
+    "average_speed": 0.834,
+    "max_speed": 5.025,
+    "start_latlng": [
+      46.037301,
+      6.934285
+    ],
+    "end_latlng": [
+      46.036801,
+      6.93483
+    ],
+    "map": {
+      "summary_polyline": "_y~wGulii@BOCA?ECACD@CCCGGCE?@QYC@@CEBIc@FTA?DEC?CE?IC@AAOe@EAOSABAEOOMEIKKEKOQIQQKD@@EFE?@BE@?DK?GBADSB@BCB?@C?ALC?CDAHMHBCA@B?CAE@@AEBBE@BLCG?FB?A@BBQDAC?GGA@@@B?CE@JB@BA?CIDD?CA@ABBAE@EG@AAE?@BF@?C@BRWAHBOHGf@[@ECOCC?BAA@?BBMWJR?FDCC@@CA@EOIEHFC?DARPXHTEF@^CF@nAEBAF@A?@AJDCMRRf@^tApABFB@h@l@BPQf@?XDFPHA?@ACD@E@B?IBEINB@E?rBjIWj@AEAD@CC@B?BHAG?B?CE@B@@CLj@JJ?DN^?JBL@@B`@XLJRHIJDDA\\H@ADDNCDBG?CCC@ACE@?BACICKGUEG@IKIDCEA?CGC@ECAIIGDIVUGADA?GPI?KRUFQ\\k@L[Fa@Ri@?ICAJUBSLWLqAAcA@IDKBAHMF[H?LQPMJQFCE@?G?DEAKNBBBALKJH@BB@RLDNRRHPTJP\\BLb@\\V`@BH@d@CBQIMBI\\?HEJG@"
+    }
+  },
+  {
+    "id": 17792039069,
+    "name": "Namiddaghike",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-03-20T13:58:21Z",
+    "start_date_local": "2026-03-20T14:58:21Z",
+    "distance": 2952.3,
+    "moving_time": 3156,
+    "elapsed_time": 4387,
+    "total_elevation_gain": 107.2,
+    "average_speed": 0.935,
+    "max_speed": 2.12,
+    "start_latlng": [
+      46.037087,
+      6.934629
+    ],
+    "end_latlng": [
+      46.019909,
+      6.919778
+    ],
+    "map": {
+      "summary_polyline": "mf~wGwyhi@L?BB@CJADCJ@BCN?XHH?BBN@ZDDD`@LJH?BDBD@JNf@^LVDDJ\\ABBL@AJR?AA@HTDD@LN\\DB@FHH@FJNVPNDJF@A\\l@PRJBl@K\\@THDJz@r@VL^Hp@p@RNd@p@DH@PFHLJ@BXLAA@BDKFAPSFCXg@RGBEAB?CFBXNd@BRFBBJ@^Lp@B\\RPDNVBRHJFN@PCB@J`@l@b@XXBV@HB`@MFGNq@FAb@?NE^JV@HFH?NR@GB@JVLJBLDBB?VVHDBALNHBPVF@N`@Xx@Xf@FFFRFDFTDH@FADBDBCAHFJB`@L`@Lt@DDHb@HLRNBFD?BD\\DLHFABCD@LA@CPIPAXFV@PJL?`@RNN@HFJ?LWL[HON@BGFAHKP?FB@EDA`@CHD^HNl@BNIP?RHLBNHBDJ?FNPJJ?PNDHF@NNLBXXFABBFCHBDCXL^AHBDDPHBLFFL?DDLBCAPRHFHLA@@FD@R\\@HF@b@h@r@b@LJFBFHRNDHd@`@v@X@JDH"
+    }
+  },
+  {
+    "id": 17819858744,
+    "name": "Afternoon Trail Run",
+    "type": "Run",
+    "sport_type": "TrailRun",
+    "start_date": "2026-03-22T16:40:53Z",
+    "start_date_local": "2026-03-22T17:40:53Z",
+    "distance": 4672.8,
+    "moving_time": 1928,
+    "elapsed_time": 2015,
+    "total_elevation_gain": 172,
+    "average_speed": 2.424,
+    "max_speed": 4.08,
+    "average_heartrate": 142,
+    "max_heartrate": 170,
+    "start_latlng": [
+      46.037348,
+      6.93366
+    ],
+    "end_latlng": [
+      46.037011,
+      6.934647
+    ],
+    "map": {
+      "summary_polyline": "m|~wGucii@QIm@q@OKs@S[Aa@M_@AuAi@aAy@SIs@Q]Sy@u@_@QUGIKiAk@sADc@CWOs@}@m@gAo@}Ai@y@}@k@iAc@USUGk@[g@EY@a@TK@YOC@Oc@Kg@M_@OSKEQGy@IeA?UISEUAOGgAO]?@My@oASi@_@uAe@w@AMHON?^TB@VEf@ADMIQe@_@YOICa@DYCq@FS?YIwADICWBu@TWB[KQ@o@EGBU@WK[AQHI?IGKCYDGCMe@MESBEMRc@Ni@XWd@w@l@i@`@Uj@g@Hi@BEM^Pk@ZY`AGJEPOLUVq@`@mAHk@?[HBBC@ID?FDHHJVH?LDVIJ]JGHBDDD?BFF@BHZRZ^`@LVLRDVTd@DVh@PVJ?HR\\VL@THNLJ?z@b@bBRj@Rb@V\\Bx@Vp@d@TRBHj@j@RN\\HNPFVZZ\\Hn@Gp@Ad@F\\NVBf@C\\Dr@N`@AHFN@pGjEGG@BCDPGF@RAfAPXPLRD@HJ\\NPP`@bAR^TBTCR?NTJ?ZZJ?NHTDv@EZ@l@NXBNN\\@\\Xv@^DJTLj@AZHTR^RR@TH\\BJPXXH@TCJR@FOd@?PXb@DX@PEx@Dp@A\\"
+    }
+  },
+  {
+    "id": 17827472585,
+    "name": "Morning Hike",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-03-23T08:41:03Z",
+    "start_date_local": "2026-03-23T09:41:03Z",
+    "distance": 6020,
+    "moving_time": 6983,
+    "elapsed_time": 9020,
+    "total_elevation_gain": 180,
+    "average_speed": 0.862,
+    "max_speed": 2.86,
+    "average_heartrate": 100.5,
+    "max_heartrate": 145,
+    "start_latlng": [
+      46.037083,
+      6.934555
+    ],
+    "end_latlng": [
+      46.037056,
+      6.934546
+    ],
+    "map": {
+      "summary_polyline": "cy~wGqlii@_AaABIKO?MEBAHLRDXPLVd@TPFXVRD?JPF\\\\r@NNP@JHFXMPBAGr@O\\Yd@ADDBCC?FGN]LMZCBD?MKUe@[Wk@OM][_@}AqA[Mc@BUEOBQKkA_@}@_A}@a@c@EOQmAq@WE[SEDa@m@GCeDO]e@e@_@_@mAGCBTB@AIAFHH?YEC_@o@W}@KSKCEJKQ}As@aA]?GYHKJ]IUTYEAd@BJEXYr@IHK^GFKDOMFTFEBKE[_@Ga@[Ee@c@cAUAGROJ{@W{@ZKAa@KKMw@SK@c@Z{AYOIEQc@C[U_@E?DC@[WSe@w@@[EOGAG?QDC?OGILc@RWXu@B??DF_@LKDMHGLENe@NO@IFGs@JEDMAWLWEQDu@n@SHI\\MV@FETEFWPK`@]TSGk@LCB@FCFMFONa@?@PCTc@HED@Pi@[QAMFGME?UJELGDEA@IIL@BOa@MZOJO^a@TERKA?HI@?PE@OGQ@IM_@ECBCJGB?FeABEIEJBNAEGA@VCFGGIA@CBFM@MGID?LC?CNSK@GAGOBeA|@GCSLOCCBMCKa@KUE?EGEACFNN]ICDKM@HCAD@?DEA?OA?@HB[D?BLFJEBFMFAMFKMQDDFJ@KINEKFAEHBHWBFD?CBFDDHAKIDACCB?B@QECA@BHBE?CM@AJFCEAAKB?C@JRF?BOC@DXCCPSGFIE?DHGGC?FEBDAEBFECAKJDGAFRDQ@FGABEEDKKKAKCEBG@[CG@BEBADGDGGAD@EADJJ@XCFHTLCPFBFIGGBDIFA@HDG?EGE?DDJABLPBYYK@CBFMAJAC@DHHATLDKJP?NDHCJLPBKTQBKTOLCDKLKF?@CRAHLPGV?JKPYLIAEDEL@IGNL^ALMTi@BLATLMVA`@Qr@GZa@VMZa@@ELDDDJA`@KVUPHBD?BHA^WTIj@?BGTIRg@XGl@FVOP[ZgBBGREVQXI\\]f@Sp@A^[MZJAK@?HBBJEDMDADBBPI^@h@RFXj@`@V`A?f@Kb@?LDx@Wv@E`@MZ@LHTE@Fd@Bd@ETFBHFFt@OnAAf@Y\\AZMPH\\Cr@FEPGDBBVEDRVVJ@HGV?rAi@~@Bt@Qr@CVV~@XXPZZ\\LVVx@FPTBIFBJNl@ZJ@l@d@R?RJBCGDJJr@NVT^JPLlAZRJf@GLFBDCN@NDLl@x@~@v@XNd@f@^RJV\\X"
+    }
+  },
+  {
+    "id": 17838227625,
+    "name": "Morning Trail Run",
+    "type": "Run",
+    "sport_type": "TrailRun",
+    "start_date": "2026-03-24T09:40:33Z",
+    "start_date_local": "2026-03-24T10:40:33Z",
+    "distance": 4486,
+    "moving_time": 2079,
+    "elapsed_time": 2985,
+    "total_elevation_gain": 162,
+    "average_speed": 2.158,
+    "max_speed": 4.46,
+    "average_heartrate": 128.7,
+    "max_heartrate": 158,
+    "start_latlng": [
+      46.037372,
+      6.934766
+    ],
+    "end_latlng": [
+      46.036951,
+      6.934597
+    ],
+    "map": {
+      "summary_polyline": "ux~wGwxhi@EEcAjBUNGAGEUAI@UI[?a@OG@}Ca@M@Y\\I`@GJIl@GLGBI?e@[a@Bk@MGLg@U[YMS[w@G]]][QEESEKOKDSa@AYI]@EEAWm@QSq@MQYNN@H]oAMUQOa@YYEIKO_@GGQK_@Ag@a@IEIK?MMg@?MBQN@VHd@AVEVOt@KDECEe@]EUKYEi@Ui@Mw@A_@BC`@D\\ZN?NBHFBADIBAAKDC@IEOYq@o@cA]a@c@]}Au@uAgAg@IUFe@b@OBUUMY]mAWWOK_Ba@MAS?k@Fq@Mg@@QCu@W[q@m@eCQa@SSEK@KFENDNJVFr@?LBLLV`@HFfA\\RLLLb@Hx@@x@ZVDVJ`@j@F@XBr@ERM`@c@T?~@ML?bAp@^PhAKf@Ot@RZAZDXE^UjBV`@Ll@d@\\PNLd@BTFX^l@b@dBf@t@ZBABKGw@[m@EQEGQGKM?Qq@BIIGG@CLQL?JFXDv@\\\\T\\FT@NFLR?DJXLh@HNNLH?RHRA@BRFXP@[F_@?_@Ji@ACLJF@BC\\JJ?JFdAB^FZCj@H`A^dAt@r@FVHNLJBd@R\\DXFf@ZNTDLAJEJEPB^HRV\\@FBTAv@P~A"
+    }
+  },
+  {
+    "id": 17875722404,
+    "name": "Morning Alpine Ski",
+    "type": "AlpineSki",
+    "sport_type": "AlpineSki",
+    "start_date": "2026-03-27T08:33:25Z",
+    "start_date_local": "2026-03-27T09:33:25Z",
+    "distance": 25072.6,
+    "moving_time": 3540,
+    "elapsed_time": 9426,
+    "total_elevation_gain": 0,
+    "average_speed": 7.083,
+    "max_speed": 25.8,
+    "average_heartrate": 104.5,
+    "max_heartrate": 137,
+    "start_latlng": [
+      46.029842,
+      6.959203
+    ],
+    "end_latlng": [
+      46.037101,
+      6.934565
+    ],
+    "map": {
+      "summary_polyline": "_h}wGermi@St@eBp@a@nCcA`AKvBPz@f@p@hAVDb@TTi@jAUnBz@dBh@Xn@pBKKfBjBHzAp@f@KNJDoDLgCpDaAt@c@`Bu@pA_@nDoApDyC?}FmAcEaEwGuE_EuBkCQqFqAgBiAcHmKmBeB{@I}Bj@qAE[TK|@?lCb@vBYr@F`HZvAfB|ApCvDxDpBNz@mBQq@x@xFjCpDrCrAzBoB{@OTFn@nC~DtA|AlHdE`BzCvAb@dMbRQIlMhWe@bCc@f@}BaCkA{Af{@}|AjAaAxAi@xFe@x@m@Vo@LsAYwDkB}Bc@mDL[aQeP`Au@f@oBp@a@PmE`@o@pC]zBFrC~A~Cz@VIhAoD\\_@nB~BrMnAfHIvEtApAxATpBtBfJfAbB`EjBnC~BhFf@nAQdCdAjAxAdDpBlBvBnSrIh@vAV`BWDeeB_qCtB~C\\jBpAlB^nBbA`B~AjFT~Bj@tBCrDl@~BG~D~AhGtBbFpBzCr@fExB~EfAr@~@lAx@pFrA|BbAvFf@hAv@j@nAPrEnDzAEnCn@lAQhA^dAxA`CfArChChBtBzGnBrI`Eh@n@N|BNHQ?cbB}oCpCnAtC\\jA|@j@|Bj@xHd@xApCdCrC~CFx@d@h@|@~CkCRi@^a@tBa@jECpDPdAhBtD~BpCzFvDdClCzDvKKh@lAt@D`AbBx@n@rApBj@dBpAFt@f@t@QtB~@|BbKtHhK`FvEzAdC|BT~BV`@kfBipCd@WvIdCbC`B^|@lA`Ld@jAj@h@dBpF[|JD|NLr@`BnDrEdEnG|DhEzE~AjDbL|G\\~@bAx@Hh@b@F@fBz@|Az@b@Ft@jBRd@e@`@Z^`BjFhA`@i@|@uBh@LrBdExA`MbB~CLlAVZohBapCmBZ_GdDwEzFsBbAmFdA}AfAo@`Bm@pGnBlGDnDq@~Bl@fB~@xJ?jF^xAvBrB`EbI^vHw@zBsEhFaClKq@nAeD\\_KnDyEOqBj@sC`Dy@|A_E|KeB`@uDEkCq@{DuDsGcEyCiAkHsAsDcBuHiLsBiBuGx@OvDf@vBAf@[TCZ^tAFrCVtAfC~EzAxApDxBH\\QRgBYUd@hBl@xCpBvA|AvBvD?RaBi@Fz@pDpFtEvCfCz@dAfChCnAnBjBlIdFtBhB~An@GRwEgBK`@Pd@fFjDuDm@oIsCYLzCpDvExDfAvFlCbDd@NjBzEKb@Y\\q@WeB{Bf@x@?d@oBzBm@TcFwG"
+    }
+  },
+  {
+    "id": 17887065517,
+    "name": "Vallorcine dalafdaling",
+    "type": "NordicSki",
+    "sport_type": "NordicSki",
+    "start_date": "2026-03-28T09:55:24Z",
+    "start_date_local": "2026-03-28T10:55:24Z",
+    "distance": 3978.6,
+    "moving_time": 3276,
+    "elapsed_time": 5338,
+    "total_elevation_gain": 181.9,
+    "average_speed": 1.214,
+    "max_speed": 7.36,
+    "start_latlng": [
+      46.032819,
+      6.933754
+    ],
+    "end_latlng": [
+      46.0325,
+      6.933621
+    ],
+    "map": {
+      "summary_polyline": "q{}wGmkii@KMISWaACg@EO?QIi@Qe@Y_@CMMCGOWOCGUUOEGIWMe@e@QICEG?@AAKQG?CKMk@k@GQKGCGKCOOUI?COMAMDEHBFH`AXHHTHVRF?FH\\FNFH@FF?AVHDCHFBABB@AL@NHP?`AVP@PH\\BHHAERHl@HDDB?ABPADI@@?O@AOYMBOEMEKKQECGc@QGEIACCABGG?@QAKGQQ?I_@i@GOIKME?EGEAMDEHHFANLJPPFTRJD@AHFHAHFFCX?RDXPBCXFHC@GIWUGKIKAKMWGCEC?CEECC@EGI?MGAEKKMIKCCFGOIGQ[OKSCQMGA@AEAMUKEACUKCEQKW]g@UMOACKGGMGGIAQOSI?EC@ACOEGG?CICIKUK[W_@UEMQWUQE@@CA@CGKCC@EE?BK@ACC?EBCKC@EAG@?AGAG?S]@CGOEAABA[GKCOc@q@GCGIQGKAAAD??AWCCA?G?FI?KEAEWECEq@c@CJACB@ACDGCA@B?GB@CB?BAGABBGCHB?EC?B@A@B?EA@?CA@DDAB?CC?CICFFEAF?G@@A?@CCHDA?CA@?G@D?CHHNFADdAj@JBRHTBPHTVZn@Tv@L^B@AC@?@@BLHKb@HHFD?@EAATFJPb@`@^RPPJBPRPd@P@A@@A@Bb@Lb@RLXFFb@XDFL?FHv@n@j@j@HDj@HJFFVFJf@ZRXT?ABZNHDDJ\\HJCFBLPFCFB?PGLI@QQMCEBIAMIoAOSMKIIC]UGE@DAEC?FDBj@Pd@F@?ECAF?^ZNDDAELG?BHB?AC@BNB~@b@NBNRz@HHDFJALGHEBUK_@EUIk@CQGK@GIICG@ECg@AGEWAUOMEYUKCY@QG[Aw@i@m@Ue@AIIDVFFTBHPNDVl@VVJFZXA@?A@CNH~@z@n@f@jArAV^FJF\\PhBPp@@CC@AB@C@BG@DC?C@D?G@@@ECAABN`@NP`@^"
+    }
+  },
+  {
+    "id": 17903042731,
+    "name": "Afternoon Trail Run",
+    "type": "Run",
+    "sport_type": "TrailRun",
+    "start_date": "2026-03-29T14:36:54Z",
+    "start_date_local": "2026-03-29T16:36:54Z",
+    "distance": 6919,
+    "moving_time": 2832,
+    "elapsed_time": 3641,
+    "total_elevation_gain": 149,
+    "average_speed": 2.443,
+    "max_speed": 4.32,
+    "average_heartrate": 136.7,
+    "max_heartrate": 169,
+    "start_latlng": [
+      46.035659,
+      6.933347
+    ],
+    "end_latlng": [
+      46.036928,
+      6.934603
+    ],
+    "map": {
+      "summary_polyline": "q|}wG}rhi@P`@t@hAn@^HJ\\t@JD`@Ab@G`@Nr@p@VJZJfAt@b@h@Vb@V`@b@VbAZ^TZJ`@J`@b@VP^`@hAjBbBdBTF^Al@Np@b@rAxAV`@^Rh@d@`@t@Zr@\\b@LTf@rAp@|B~AzEKY@Eb@k@x@}Ab@m@r@KRBf@Ep@RP@|AlABJlCj@XHb@TFBLJh@x@x@bAfAt@\\b@^Xv@b@JJ\\r@V\\RRr@`@HNHFPFPVEpAU^OJS`Am@vBU`@EN?tAFNJFHVtA~BF\\FCFZ?RJTD\\LI@CDANV@JBDLDTf@?JGfAFrAHTT?LHPBRCHGLb@FWZLT@b@Mh@WJATKHIj@mAJ?NFl@A^c@HC\\c@d@STQf@k@Ny@BMB??QP]TUl@[n@Sb@ITIDEN]Nq@X_An@o@HQr@cAH[FGNk@HATQRYHi@BiBRcA^m@ACOHiBlB_AlAg@h@WHc@JCAIQ?GH[f@qAn@kAXcAF[@g@EKE_@@KX[HYHe@HWA[CAe@CWGK?KBw@^u@l@QVQPg@Xu@r@a@NW`@w@TG?[SOEs@IiAUiABw@NYLq@CYIe@]I@a@EgAkASOYc@MYMMgBSm@M]M_B{@SMeAiAi@g@}AiAeAaA_@c@w@e@wAkASKU@@YK]Ya@g@i@Ue@s@}Bg@_CSq@]k@y@y@e@m@{@i@]K[A]IKS_@OgBOcASYMG?uALYH[Em@Uw@w@W_@O]q@{@O]o@gAc@i@kAgB[U[_@MS]UaA_AKU]gAOcAUO[]Ye@e@e@QMWEEBMP[n@GXUXIBICeAw@WA]JSI{BaC]q@[g@SO]e@k@k@o@y@"
+    }
+  },
+  {
+    "id": 17912635023,
+    "name": "Morning Hike",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-03-30T08:44:29Z",
+    "start_date_local": "2026-03-30T10:44:29Z",
+    "distance": 3080.1,
+    "moving_time": 3764,
+    "elapsed_time": 5011,
+    "total_elevation_gain": 168,
+    "average_speed": 0.818,
+    "max_speed": 2.74,
+    "average_heartrate": 88,
+    "max_heartrate": 115,
+    "start_latlng": [
+      46.037257,
+      6.934814
+    ],
+    "end_latlng": [
+      46.037064,
+      6.934593
+    ],
+    "map": {
+      "summary_polyline": "gx~wGiyhi@@FILG??JCDD?ECIBCGE@]\\@NCRBJK@KEKHAFWFCHKBKQK?E?OFAGSIIKOCECU@KOOEMQCBF`@CHEBGGG?SIKAQIQBGDQGE@EDELKF?FIXE?EDALBTEPC@[DGAEKUGIAGDG?KEOOOGG@EHAA?DEB[WUKGMMGAMGKCOKGCSGKC[EBCISKM]ECE@EFGAGEIOG?Dg@AGQUIACMCBGSCFEOYc@KEE@CLEDFMDAACa@SQSMy@GKASCGMMi@K[QEGGe@UOOII@CCKDGGI?OIKCS[Mi@?IIg@BAFLEDBC?I?@ADDGNLJ@LHRKZAD@PKZCBCn@@FA@GAGKGCGOGK@GMIYIMIm@WcAEm@EMFCJ?ZDLPLHNCNPD?DI@?RHPNL@Zd@\\VCGBCf@@b@LZ?j@BXPn@h@h@T\\\\DHbAd@bAXb@\\Z\\\\R~@VJ?f@JD?AGADHCXB\\Pn@d@Z^TLTb@RXXH"
+    }
+  },
+  {
+    "id": 17978745640,
+    "name": "Morning Nordic Ski",
+    "type": "NordicSki",
+    "sport_type": "NordicSki",
+    "start_date": "2026-04-02T07:39:34Z",
+    "start_date_local": "2026-04-02T09:39:34Z",
+    "distance": 3526,
+    "moving_time": 2940,
+    "elapsed_time": 3853,
+    "total_elevation_gain": 267,
+    "average_speed": 1.199,
+    "max_speed": 14.96,
+    "average_heartrate": 105.4,
+    "max_heartrate": 155,
+    "start_latlng": [
+      45.974058,
+      6.874772
+    ],
+    "end_latlng": [
+      45.987401,
+      6.853201
+    ],
+    "map": {
+      "summary_polyline": "esrwGyq}h@WJGJMHSn@KNWD_@E[BQFEA_@@KH@@CAABC?UL@?IJ?AADIHDCJFXJJLBJUF_@ZLDJJR\\IE?DI?GHI@B?PHNN@FU@CFK@RFJHCFILMFKJ?AB@?CB@@FFBDDAAGLAHBLE@@HN?HBBACHDFQLSAPTJ@?CAFBB@DSEW?F@C?@EH@FJTJBAEDNAMHG?DDBCCK?BE@?A?@A@B?AI@DDB?JE@H@@EGA@CEBBA?DCQ?@KI@E?BGDHCF@DB?PGMCAK?KDFXAJF@@AG@EDDDARH@@BCDKBAGA@ECABEC]EPBAHKEDBC@FEDHCE@AGGCBAALHABGADDYM`@F@EDHOIB??@A?BCBBCIGGEJKDSAKAs@[_@G_@@y@N{@FMAs@Q_@AYNuAHo@Rq@?QBSJOXQXSROVOHe@H]T_@P}@R}@d@k@b@_AnAOL{@j@[^m@l@OTGf@q@zA]`@_A~A[j@e@xAYnAc@nA_@zAQZg@tAQt@]n@[x@e@~AU`AC^@^NfA^|AFh@ATEj@Kd@IXMvAUpACdAWpAI`BMpAA`@HfAFdA@~AENQCCKC?BJNPDTGzAIZ"
+    }
+  },
+  {
+    "id": 17978750941,
+    "name": "Afternoon Hike",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-04-03T12:51:45Z",
+    "start_date_local": "2026-04-03T14:51:45Z",
+    "distance": 3992.9,
+    "moving_time": 5541,
+    "elapsed_time": 8155,
+    "total_elevation_gain": 168,
+    "average_speed": 0.721,
+    "max_speed": 1.983,
+    "average_heartrate": 86,
+    "max_heartrate": 115,
+    "start_latlng": [
+      46.037187,
+      6.934577
+    ],
+    "end_latlng": [
+      46.037023,
+      6.934509
+    ],
+    "map": {
+      "summary_polyline": "wx~wGayhi@UXQHCBKBAJB?OPANUVKX]WG@GK@BE?AC@IC@@?BJEBKOQJS@AAKCCC?QKG?GA?ADIE?COMABEGMDAXBL@AE@ECCKGPII?GKBQGQ@AIG@CEAI@F@AG@KLEIMJALIHMH?EFHCD?FA@?JGLCXEDCJIFEJQAGMQKAGCBACMBK?WS?FUUINE@@CC?WBDKGDGAc@m@EKO_@Mk@EOECAM?@IBI?IUKKM@KDKCCC@MM?BBCBEEAC?ENWCE?]EEQ?@GBAABCAIEEBEQ?KOCAKCCDGCK[IMAWIKKEUDGGB?OE??DAI?KEY@GYYEKWIGGS_@CAOSWKEGUFWGIII?KKEO@?@BAHC@Ga@Qc@SMAOC??C`@BJEJMAHBJH?HDHAPOLJDCD@CL@G@A@D\\c@BQAPE@CADEDBAAALBECLD@RAFDPIBKNQI?IGMAEIEB?B@E?LG]QI?KEA@EIFFC?@A?GIO}@BIESBCAH?a@IIEQMO?GBEPI\\@HDFVHJXFAEJJNMLFHJFG?CKQKMIa@IKGMGB?B@@?QPPDFFXa@w@c@o@IEIKQYWUm@IEIIIQGY[QCAFU?AC@ED??CDBEIFDEEADBDB@@EKHBA?CIQBDAACB?DBA?BBIFD@GCKGJ?H@A@UAJCCBA@D@JA@VCB@NVFFTHEIMECG?M^Op@PHERFBA?G`APL@LA\\F^RXTPZB@BKFAv@`@DFBT?V@?AIABPTKKG@@AHBAICCGc@FIf@Z`@DLFPD`@@HBDF^Lr@K^LJ@@CJ@RHR?NK|@JLH~@Bl@OVAACLC\\Zn@^ZD|@Ez@IJC`@BLJLXB?@CC?DCHAF@G?CC@AFFGCZVFLGQECHQHm@ADLLLVH@E@@@FA?CADCBCE@A?DAEDBC?@ECDF?MGDb@FJFV@L"
+    }
+  },
+  {
+    "id": 17978751066,
+    "name": "Afternoon Hike",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-04-04T11:45:12Z",
+    "start_date_local": "2026-04-04T13:45:12Z",
+    "distance": 3638.1,
+    "moving_time": 4408,
+    "elapsed_time": 5073,
+    "total_elevation_gain": 197,
+    "average_speed": 0.825,
+    "max_speed": 2.078,
+    "average_heartrate": 102.6,
+    "max_heartrate": 143,
+    "start_latlng": [
+      45.914784,
+      6.848509
+    ],
+    "end_latlng": [
+      45.9148,
+      6.848486
+    ],
+    "map": {
+      "summary_polyline": "}sfwG}dxh@bA`@NGBBHGB?HHF@LJXb@P]FTPN\\XL?BN@CDBDU@A?HTCFDJD@AEBB@?BNBA@B@BIAA@?h@DJDd@\\^NRCJDNP^PNPBLAHFn@?d@CNFf@?PGR?TEf@IABJI?^z@HXHf@NhCRFDHHXARIBOLKBi@TYGWWKEu@JE?QUCAKBENBH?JBBMFEAOLKT@R?JBJHBBHCHGD@N@ECDi@@GH?FQDK]MAq@OIHY?UJIGIQ_@YEI?UKO?IDQ?JE?AIG?CCGV?HBTAP?GKACVIAMDADCA?KEAA@@BSOCVBTA\\I`@@LKGGQIGAKE?EGMm@AD@FLQEIA?Q^FOAA?FCADCAJAM?PBA?CICALF~@DN@JCDCAAOGYUUEQIGK?CQC?@BACAYLa@?@IYEE@ABB?EOJTQPI[L?[DKDUDK?UI_@Um@CMEKo@SYUAOOu@E@IAJO@IB?ED@GIKOKAMGM[yAISIa@?OGAEUE?BLFALLVNDCFHD@@HFD@b@BBN??CAJBHBEAFACDQEJEGABGCBADDI]IO?W]u@KGOOAOY]G_@Sa@WYAIMWMs@@]ESOQq@aAUYQmACA?EIGDID?@CFCABFSCEM?OKAIQKMGAB@BE?F[JSFYBYDQDc@MgACAKKS[?OUq@WoAECGMGCGGGc@U[ISUOEMCACGCWOKGKEYSaAGGAQBWSQQ[_@e@QMCE@CRMZCL@ZOJ?VQJCH?F]FKj@e@FAN?XOJNCF@NP\\VP\\HDJLi@L[NMPEP@b@?J@JV@HVvCH|AN`AVt@b@nB"
+    }
+  },
+  {
+    "id": 18011483553,
+    "name": "Bokka Bos",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-04-07T07:09:57Z",
+    "start_date_local": "2026-04-07T09:09:57Z",
+    "distance": 8157.5,
+    "moving_time": 11063,
+    "elapsed_time": 15216,
+    "total_elevation_gain": 310,
+    "average_speed": 0.737,
+    "max_speed": 3.5,
+    "average_heartrate": 90.2,
+    "max_heartrate": 118,
+    "start_latlng": [
+      46.037157,
+      6.934506
+    ],
+    "end_latlng": [
+      46.037618,
+      6.932998
+    ],
+    "map": {
+      "summary_polyline": "_{~wGwaii@qAgBmAm@kBQyAk@cAy@s@SQ@MTKo@[KwA{@LAQI\\B[D\\AiAs@}@KALeBQs@k@u@aBJPLGaBcCkAm@_Cs@uAXE~@e@~Ay@Bm@i@[wA]m@kB\\m@Z}Ac@cAXiB}@oA[e@SkAeAFFoAOQ]@Qn@_@@OLG?OGBJ?VaAj@s@Bs@\\OUEw@`@oATYf@BTKZ]HMp@o@f@cAJW`A[CmDd@DDKPH@NOYGDGMMYTDBMd@a@FENr@n@yACZU?JoANXb@yCEWO@JKFY?DCIGLDNKv@^g@ICJGYDD_@QDFEFNLQAt@b@gCKeB~@[VMo@m@O@GM@HNWBb@@s@[b@T@QHPKIf@@WUBJONY[JG_@DDU@h@EWBPEMNEh@VECKH@SCd@VXJIc@MCLDUOe@BQKHHABRa@A^@LIG@JQGLDFMCH^FEEO?BSKRTVa@^RATR@AXJEFN@p@Od@k@FZPPc@I?ATUh@WGEBJRECQVQGPGKLDEEVJOSVLa@L\\COF?QOkA?o@L@LKMIXk@B?RQPLXMVa@Pc@Ga@TM?e@ESH?TIFF@SCVE[RETUFF@AKIALCO^F@IBKCF@DUXEH[JBSB@IZSDLGAEHCUBKTAICLMv@FID^]pAQPc@OM\\q@ZDv@Wt@a@j@^@]VM\\o@ZkAWMIY[_@YJDD?MMJHP]DH?He@FBGGPPMFLOFFCKROc@\\\\FJKW@ZIqB\\vAq@a@Mt@a@i@MsA\\Tf@`AMK?IPf@LoCIh@Gp@Jq@OTJeASDK@RHBv@@XODNWFV`@MMH]DNCF?]UFBGH\\DSJJMWRZCSUGFJZAUAR?GFBIAG`@f@UIOUFANb@O[KBZOY?GRKIPLYk@TRYQh@b@e@KDFPMEOf@XUEEc@GFBVHAIb@JAc@o@LFEEs@_@P@t@v@CLZBIDI?J@EKIHAKNK@HEHJTi@WRGG@APVT@IQWTHMYULH?JIBLWGF_@Pn@IADQJ@AMHVt@b@BLHCNZUMNGBW`@ER]ZQNNj@GZW^g@XD^QLJx@CnB_Av@w@n@@JSnBUb@YTNf@q@jASJGK@\\kAj@eAhA}@CIhAUp@LBz@PVn@B|@t@|@Xv@MhCBTKv@NJIGEM?F\\jA@`@[`@RpBg@^i@d@B\\Wh@LpBbBh@Bl@UrFD"
+    }
+  },
+  {
+    "id": 18026943288,
+    "name": "Mont Buet 😅",
+    "type": "NordicSki",
+    "sport_type": "NordicSki",
+    "start_date": "2026-04-08T04:13:53Z",
+    "start_date_local": "2026-04-08T06:13:53Z",
+    "distance": 21703.2,
+    "moving_time": 24008,
+    "elapsed_time": 32634,
+    "total_elevation_gain": 1911,
+    "average_speed": 0.904,
+    "max_speed": 19.44,
+    "average_heartrate": 132.9,
+    "max_heartrate": 183,
+    "start_latlng": [
+      46.01905,
+      6.919889
+    ],
+    "end_latlng": [
+      46.01946,
+      6.919501
+    ],
+    "map": {
+      "summary_polyline": "}}zwGo}ei@BxDe@jC_ChCUbBo@bCgAlAGp@\\nAm@f@G~@b@AOx@Vb@_@nBv@bADf@[Vp@hBKz@^bBg@fAL~BlAtA@pBr@|AM`@j@QAdE^`@CbAdAnEFfCe@`A?dB~D`En@lAdA~CLdB~B~DxBfCZtA_@xC\\b@Eh@n@t@JpAlArB[f@h@h@VpDvAzAhCpHp@vGlAzFtApA|@fDpDdFzBhJv@fAdDt@`BtH|@x@dAtD`BvItBjDnGfSxGlIdBfDRdDnAn@lBbCWt@dAh@_@v@CxAP_@S^?WGd@b@fDMvEhBv@`BcAfB~B[jDcB`@Kp@hAp@Xd@[Pp@^WvBqA@U|@mA|@i@nAb@B[b@b@HU^qEbAl@h@|ApEpAp@m@fDk@RlAnCK~@`@LQxE_ACo@uAsAUmAgAYNHj@_BKoADuJzBo@IiA~@l@d@@v@l@r@uCbBHXyErAyAIs@rAcAf@}EZJ^g@|A^PiAdAqAxCg@SHj@uAZhAtBcAfDiBdDiAl@UtAq@t@eBx@s@rAy@YBp@y@IyEtByByCoAzCE~AaAg@?xBn@p@PdA_CMCj@{AkAMnBo@k@SvAwAaDOl@i@mCo@zBcBeDw@cDkBuBwI{@}MgKEiAE`AQO{EfEGW_ExBaAI\\gA}AeD`@LLs@NJM_B?DPBK{@_Bq@d@Ia@Qj@mD_AiBf@oAa@iANHu@Be@aBy@`@[sByALp@sChBeD[{@PgAnBkFaBkFJoCk@PsAoC_@eFgA_CsCe@gEuVyEkLc@@VFc@{D}AyC{@wFdDQzAWUWbA\\rCq@p@aB~BcBxAQp@{@z@kIr@}BZeGnB{GWD`@gElA_GbBkDz@yEfDkE|C}L`@cFdA{EhBkFOSRqBt@_AZi@YvAU@|@fAs@}@HQw@G]yBDsApAaCM[TCSU\\HWCb@m@QQXPOk@J_@zBZj@e@tBkGtAqALs@`@OxAt@Qm@m@NS{@n@x@Nc@EkAZmAWqAT~Ab@TQn@Vm@IzAb@i@Pf@R[Dh@p@HDf@dAw@tFkC@w@n@WTwAb@?A_BpAa@Aa@Xf@Ww@d@oBB_GGo@w@q@XHCy@}AaD^oFqA{FqA}Mu@aB]uC^}@YM]eDHeCs@iCPcCW_A^mAa@eDl@]v@_FdCkBTkH"
+    }
+  },
+  {
+    "id": 18069295938,
+    "name": "Refuge de Loriaz",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-04-11T07:38:56Z",
+    "start_date_local": "2026-04-11T09:38:56Z",
+    "distance": 8413.6,
+    "moving_time": 12218,
+    "elapsed_time": 23269,
+    "total_elevation_gain": 949.4,
+    "average_speed": 0.689,
+    "max_speed": 7.09,
+    "start_latlng": [
+      46.037083,
+      6.934252
+    ],
+    "end_latlng": [
+      46.027352,
+      6.923997
+    ],
+    "map": {
+      "summary_polyline": "_y~wGayhi@g@j@Uj@o@\\MOKJk@Ga@g@a@@OOSJ?HFDG@[?[WW?e@DUVC\\Q\\@XWPS@w@MD?CFs@YU?Z^Pp@F?b@l@tA|@d@IPHHK\\A`@VPh@^\\BNf@^DEALZ`@LB@LSI@G{@D@BLDN\\UDPTSK?SJRE@\\Pb@r@?Hy@QaAPgBQNVQVYD?F^d@_@?CJv@b@NROBHXa@KUH\\h@a@VRR[Tz@V`@j@^PRGTb@EFBCf@j@p@^f@AVJGPTF?EXSFFALPERr@Ed@MZDfANhAJNV@b@`AVXZp@FBMNOANFTb@NEJWZBJJR]LC`Az@b@nAq@F@TBJX\\PdAAJX`@C|@FZd@~@@^Et@Bf@CICDDCGFKEDEKFHEH]Yu@MOq@Sm@i@PdAV\\DZCl@Bb@C@Wk@[MJ@s@fA@HyAx@dA\\ERUr@a@ZDPEFEf@WTNvBAV_@a@?R]XVxB^vD?tAEr@PbBANGBAXVbABb@eB|Ba@`@Qd@s@ZCp@SVo@Fa@_AGBRUSLBTM@HAFMMFELXAQCXIMBEOOFPKWFVGSJRKETKEPOEb@?a@RSQ\\BQD?AGDf@Xn@j@GbAq@`@Kd@q@pAq@LYFy@dBmB`@kAP]PMTy@HKTcADaAEUDUICLMBg@V}@Fw@IYWCGSkA}@lABt@a@BI^J~@a@TGRFRTCi@Qq@BMNP`@XRv@JSDk@GmASg@@Oh@P\\r@`@RR~@Cp@HELc@Xa@Di@GSOGQ[Fk@_@mAWo@ICC{@cAs@MF@Kz@Mf@LNZRXXDb@ZL?EDLFCKCF?KCLRf@v@Tj@z@ZNZh@Z^PHBHGr@MPGdA@ZIp@FTVIPT?C^BDHb@En@V^[TLbAEx@_@j@JBL~@d@HXPBBLTPXh@`@LP`@H@n@~@t@l@Vn@r@z@PFRr@FEVVJb@HRlBvA^t@RJDRF?EaAOYEm@Ss@]WB[Wy@BQQe@Iq@Q[BCAOISDMGQAi@UYIk@KGNCl@^^BNNJ^`@TP?Zf@VFGI@WE@BCUwAGGG]C}@S]AUWm@Ko@@LG@DCG]SYSI?w@}@qC[yBOu@i@mBMUSIYe@M[SM[kAH_@\\SDOJCECBLEBFCAI^MZUXe@^_@t@a@"
+    }
+  },
+  {
+    "id": 18143632348,
+    "name": "Morning Hike",
+    "type": "Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-04-17T08:19:27Z",
+    "start_date_local": "2026-04-17T10:19:27Z",
+    "distance": 7196.5,
+    "moving_time": 9193,
+    "elapsed_time": 11204,
+    "total_elevation_gain": 300,
+    "average_speed": 0.783,
+    "max_speed": 3.311,
+    "average_heartrate": 94,
+    "max_heartrate": 128,
+    "start_latlng": [
+      46.036922,
+      6.934572
+    ],
+    "end_latlng": [
+      46.037031,
+      6.934689
+    ],
+    "map": {
+      "summary_polyline": "oy~wGgaii@i@Sc@}@IGUCIQy@k@i@O]?aCo@SOa@m@UKkAUm@i@OCm@e@WM_@GEMOIAEBGEJBBCMBCc@Iq@A?IGBy@BWGSYAIQKQEm@wAGB[mAMUAMkCkAYQEISKCC?CCDB?E?ACJMCNDKYPw@D?Bg@PIHMx@GTGl@MZUA[Ce@]M_@GuAMa@u@HIFa@DCEBES?}@Tg@?WEoANoAe@_@]G?OUc@EQKe@RKIQCCKWAKLHe@IKIEw@DMMDs@BWDCMKBICIX_@R]DCACBINOL_@f@i@DSEKYHGEa@Vi@Jm@TAH[l@?PGPYd@WJo@n@a@B?XeAl@g@RWB_Ii@xA~@v@TSP]h@k@ZQA[L[Ko@BEFg@J?FS?WFAHQFQG@BODSG@@_@DIFCJB@KAEF?JGFEJIFITk@T@NFFMFB^EHICK^E@D@@D[CB?@JEL[@BFAGLGABCKOHAIRIGMH@ED?HG?ERG@B@NM?OCBCXJUGMOHaA@NUU?VLL@EFHNM?OK^Gd@VACTS]FCC@PRKH@GDORDIFD@FIECQBAE?AIABOECFGCEFGG?LMFCHMI[@GIIH?HED@Da@IKRB@IAHJQ@EF@@GID@EHFEBLLH?HMAH?CPFLUAMJOG[JMKIBIPKHOIGJ]KKBGGCLGEGB[EAGOGEBCIAA?DMSTL@GL@K?MGDFIB@DBCO`@BAIPONCAHD@b@C\\DHAFEK?NC@EEDGDDCCJAEFGCn@j@MCFB?LADGABADH@I@BGFKQANRFGG@GCCCAIBBLAMFABIRHFIBWOOIFUAIQBSGGBOMWLKLCEE?GJAF_@TODLTBJLj@IRFb@?JCC@BDEDn@c@J@XKJJBQCE?KH?CIIBAEHEAIRU?KDGNERJHABGB?@KJI@GJCFBXMHJAJVMTFVEBIl@o@FU@cAROPEjAaAXOLDHEZ@^KGO@DFYDAJOh@EDDb@SfAGt@]l@a@z@Qb@W`ANPOFMz@[^YHOHEAZO^C?FWXQd@MVBHIZq@Jc@EANEBk@d@c@Pe@NKVHPGLK\\@~@UNF?v@DRFH\\NLRh@h@t@VbBKp@YhAMZKhCZlAEh@J\\GPMNSRK\\DTYF?NHR?LT\\NVXXJ|AGVS^BNGtABPSPELHzBh@TVd@L^`@p@FJJJAVd@HDt@RbAd@n@Lt@`@f@Nz@f@z@`@f@t@`@^`Ar@zB|B"
+    }
+  },
+  {
+    "id": 18187963878,
+    "name": "Kort rondje",
+    "type": "Kitesurf",
+    "sport_type": "Kitesurf",
+    "start_date": "2026-04-20T18:04:12Z",
+    "start_date_local": "2026-04-20T20:04:12Z",
+    "distance": 6244,
+    "moving_time": 1546,
+    "elapsed_time": 1710,
+    "total_elevation_gain": 31.6,
+    "average_speed": 4.039,
+    "max_speed": 11.16,
+    "average_heartrate": 101.5,
+    "max_heartrate": 123,
+    "start_latlng": [
+      52.104597,
+      4.265747
+    ],
+    "end_latlng": [
+      52.10443,
+      4.26603
+    ],
+    "map": {
+      "summary_polyline": "a{_}Hst_YCr@HODGD?BF?p@MzA[vBGbAi@tCg@~By@jFOp@q@~E[jBA`@@GAg@Fs@RwGToFZcGJcDPcDFw@@k@F?AXMnBo@hHUfDStB_AhHQnBW`BEd@DAFiCLwBl@_VVsN@KDGJXDf@@bAF@LXHd@KxAq@|EYlFg@jFB@JSDBFLBb@OlA{@rFu@fEJMFCFHTQJo@FsADaEf@{Ib@aMBkD@uJAa@@MBEHFn@bC@NJDF@BF?^QdCDn@LNFAETL@HNDh@A`@Dp@F?JPF@HCFBFZ?RDDNU?IFBBPFHBjAg@fF@PBNDBPn@@BLBc@|C_BlHe@vCq@hDg@pBLYTU@GFmIN{EAsABiBDeBRoEVeEBs@CaB?KFKF`@ItAk@tG[hDi@vEk@dHW~Bc@|CJCJKHQF{@FmBBkCGsDDgCHsCRgCTyFVuLEaCDIDAFFPv@"
+    }
+  },
+  {
+    "id": 18235741415,
+    "name": "Morning Run",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-04-24T06:55:11Z",
+    "start_date_local": "2026-04-24T08:55:11Z",
+    "distance": 11746.2,
+    "moving_time": 4062,
+    "elapsed_time": 4801,
+    "total_elevation_gain": 93,
+    "average_speed": 2.892,
+    "max_speed": 5.011,
+    "average_heartrate": 145.2,
+    "max_heartrate": 163,
+    "start_latlng": [
+      52.108657,
+      4.280938
+    ],
+    "end_latlng": [
+      52.112232,
+      4.278458
+    ],
+    "map": {
+      "summary_polyline": "kf`}Hu_cYNSb@[J@ZJbA|ARwBl@cEHgADYb@i@Pq@F_BXiBV{@JK\\?d@S`@q@`CkJh@Qb@?f@wAGUv@gC`AmB^a@|@eDhAOd@g@Ty@BuDLqCn@sDb@q@ZKXBjC^bATfAl@Pb@`@^Nv@GrDBNRZLr@GlAOr@w@~BE~@Bf@HXx@`@dB]NQJi@Ay@e@cCAy@HyBf@wB`@y@zA]JEP_@?_AMw@{AuH[aAa@WgBd@]QgAHeBO{A_@aBgA}@{@Ym@@}A[uA^eCMg@y@_AoBvBsA\\u@?YKCSJa@Z_@@a@g@{B]]Kk@IIcA`BSAOSY@m@d@WAKNiAxCa@l@y@xBc@d@_A~AeAhC[d@[Kk@c@m@_A_@wBFoBAsDFcAEu@Fu@Ro@BgBIuBs@cAAu@HwATa@~@DdAi@Xk@L{@|Ac@FOF{Bd@u@Js@Vm@fCyCPc@Ko@s@qBIm@No@b@gDDcArBuBT@TRZDV`@r@lBh@fAx@dC^r@RJFAZaARmBTk@n@kAW_B_AcCm@uB[gCUiAg@MOZc@RiAw@q@uAg@oFO_Aa@}@cBcBc@{@_@a@_@Pk@@kBkDe@?[d@y@|B_@v@i@lC_@pAEbADRfAnCNt@|@|BhBpDfCpBlBH|@_@h@Ed@VBNCDoBj@cEo@kAa@a@g@[m@sAoD_@o@i@_@oA]e@q@E[MMm@~@y@tBQq@i@q@k@USF[`@m@Ra@^S|@_AlBi@h@s@pAWAk@][Li@b@YxAUd@IdAKj@C@_AQ}A@eA~@g@?o@Qc@]y@TuAQw@LcAa@We@YGa@VOdAMRqA`Ai@v@_@ZqAVe@K[]w@Yi@PQCa@[e@cA]MyIwAoKbBsFH_AZaGbAU\\Up@C|@Ob@a@t@e@ZKTSbBKnDMz@k@fCCO{@`Ba@lAK`AaAhAEjAu@jADBZo@RURd@f@r@rBzD|@pArAjD|AnBpAtCbAxAdApBXN`AjCdCzEt@bAf@fAHBUgATbAj@lATH\\Oj@aA^YR[ZZ|@dBVTrArBbArBdB|E\\pAv@vAbArE\\xBD~@HPn@`@Xp@j@jBlCbF~AzBZFd@`@fAnAR~@pBxDlChE"
+    }
+  }
+]
