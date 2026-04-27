@@ -1,32 +1,5 @@
 [
   {
-    "id": 16853036131,
-    "name": "Lunch Run",
-    "type": "Run",
-    "sport_type": "Run",
-    "start_date": "2025-12-27T10:02:20Z",
-    "start_date_local": "2025-12-27T11:02:20Z",
-    "distance": 15008.1,
-    "moving_time": 4673,
-    "elapsed_time": 5464,
-    "total_elevation_gain": 21,
-    "average_speed": 3.212,
-    "max_speed": 4.383,
-    "average_heartrate": 148.3,
-    "max_heartrate": 164,
-    "start_latlng": [
-      51.571888,
-      4.785164
-    ],
-    "end_latlng": [
-      51.564247,
-      4.773171
-    ],
-    "map": {
-      "summary_polyline": "odwyHuue\\\\FXTr@e@zC@fCW`AoFNg@h@e@bBo@bACtAXnAAR\\LnBN^HH^@n@_ADB`CbFpAk@fEiApB]rAGXXNDtA_@|Aq@d@If@}AH@dFhGNFSXCVJPt@P\\e@Nx@PZhAj@|@|A\\Zr@NzAu@vAwAd@_@z@_@j@IbDIb@Wn@o@|@cBFQFaAr@cBpBgD\\[d@Ih@N`BbBh@`@|Ax@Vw@LQ|A`@n@ArBe@p@]jCi@`A_@zA?xAN`B\\v@TxAv@\\j@tCnC^l@rAbDpBrGRfAFdBIhAQ~@CjAD|@NhAp@nB`AnAj@Z~A^|AIzB{@|AkA|A}@zBw@rBQlBDdCxAn@Vn@Jz@Ep@OZUfBmBr@k@nAW~AH`BnA`CtCh@t@lBjDrBfFr@`AxAx@jFfAb@At@Ll@OvB}ABMDs@K_Aa@oBAi@QeA@e@TWPJb@zAdAnFr@fCn@dD`AbCRr@f@bF@b@EnAdAzFhBnNXxA^ThGrBlCJZLFRDr@Ur@G|@AxA@jAJjA`@pB^bApAlF~@|Bn@|@fDbDdBfAlEnDbCtA~AnA`@^x@jAb@x@B\\UpAG|@Pz@Dl@Ol@Bt@Eh@S|@Ex@N|AFnBh@~ADj@@nCNbDMzMMdFP~@?t@Kn@Ub@k@ZmBPw@OiAsDqAsHEe@DiBKq@}@J[V[n@S`AEfAQdA_@^aDnAm@Ey@a@cCi@MDMn@OPm@u@iAwBo@e@g@OuGUcCCYJiCzBcAl@]?e@Qa@[qAyAuDaF_BeBy@iAk@]Qy@MsB_AcC?u@Q}AFaA?qAQ[iAb@q@Jw@i@}BiAcCo@iDyBoAi@qBeBaA]eE_C_BgAsBcAeA}@eAc@gCcBw@]m@IcBtA{@d@eBZcAEmDd@kCp@iBxA}Ax@gA^w@D}@KBGCK}@_@g@e@aAwC_@c@u@uAa@uAOiAs@iC]q@GMy@MYw@cBwG[oBs@kCcBiIm@iDYcAKy@UqDMq@Gu@S{@Cc@j@iGO`AQ~BClBj@hCF|@QdAUXgAX}Ar@wAX_A`@eGxAuB\\aBl@sEnAgBk@cBXeByAkA{A{@cD{AuDe@wAi@iAmBiGcCiF_CkDk@qBe@iAc@WcACyAVwGbCy@v@yAt@}@Ro@b@c@h@GT?P"
-    }
-  },
-  {
     "id": 16997335728,
     "name": "Met  Swagger Muts ❄️",
     "type": "Run",
