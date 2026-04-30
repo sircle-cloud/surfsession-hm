@@ -819,5 +819,32 @@
     "map": {
       "summary_polyline": "ua`}Hi}_YWb@a@h@yAvAq@f@u@d@q@VSZ[~@CXKb@}@xAk@rA_@j@eAdAITAJBHDENUp@wAPUl@q@^SZ]nByCz@{@t@_Ax@}BVS^AXRFPDT?TKP{@vAeC`F}DvDi@x@KZWb@?PFDx@s@j@eAvCeGlAgBr@cBjB_GNo@DCDFDN?NIXq@j@KRAXGZYh@{@jAkAvAgBdBmA`BsArA}@r@EPARD?Hb@FHFATUnB{Cz@kBz@cB~AgCd@i@fAaBVk@FEDD@Xo@bBQT{AtAgAhAaChCw@~@gCvDSNORCV@FDBPS`C}EjAoBlAkB^w@zAwAtAqBz@w@LB@LENk@x@]TIB[VUn@aAhB{AfDcAnBs@rBMh@C\\NFTMVEHGNQnB_Gl@kArAwCf@aAv@aAz@oBLKBPm@bBJTR@KC?RSh@k@z@cB~CcAjA{FxJiA`BIN?BD?DAl@c@j@cAp@{Az@kC`B{DlAsCf@s@RBDR?NGPGf@O~ABFJSNkAFWt@sBl@oBHEDH@ZCL?RMh@c@|@e@bBQ`@}@|AiCdEo@t@MRJPFALK`@s@rAiCpAeB^o@VML@PPH@DAlAaDdAwCj@_ABA?B\\}DHi@Kt@?\\ShAILMp@@`AD`@C`@Qh@?FjAKIKQ\\UpAEfAm@`IKTm@t@mBhDgCnDe@f@[f@?TDHh@i@|BsFPMn@cALGPCtAaAtAcBTGdAu@R?j@_@b@_AHFKb@@BTEJEDUJU?KD?FW?IGUq@mAGQ?E?@CE?MBFAHF@EBGIEq@GC[F[?ICM@WAKDWbA[j@QN]n@mBpCqAbCmA|Am@n@g@n@uAxA_BpAILANBBTSp@wAbAkCbBaFhAuDrB_G^qAJI@JSlAJDBFAPWp@m@lA@HHEDBE`@Uj@g@p@s@x@o@hBmCrEu@zAu@fAIPBBPQj@cAbDeITi@JOfBkE|@{AT[jAaC"
     }
+  },
+  {
+    "id": 18302523160,
+    "name": "Morning Workout",
+    "type": "Run",
+    "sport_type": "Run",
+    "start_date": "2026-04-29T07:02:40Z",
+    "start_date_local": "2026-04-29T09:02:40Z",
+    "distance": 5905.5,
+    "moving_time": 2631,
+    "elapsed_time": 2636,
+    "total_elevation_gain": 33,
+    "average_speed": 2.245,
+    "max_speed": 4.8,
+    "average_heartrate": 134.8,
+    "max_heartrate": 157,
+    "start_latlng": [
+      52.108441,
+      4.281103
+    ],
+    "end_latlng": [
+      52.103539,
+      4.279118
+    ],
+    "map": {
+      "summary_polyline": "kv`}HkxcYYQS[EMEi@d@gBd@cC@?DE@HFBGG\\mALs@JS@QAU[mBIeA@Q`@q@dBwDVw@jAaCRs@Xm@d@_A\\c@h@mAb@_ALOLc@@]JUJa@x@uEH[Vg@\\gAH_@Hs@RqCAKIA@KB@LCCCAFCIFDBEC@HHAB?EFg@?DNQfAu@x@{@Pm@T_ARWf@WV]XObCeEzAaE`@{@`@k@l@iARa@ACABAABKB@DJCJRQZOHI?IC??@DAb@]BSACBg@FCf@?z@i@TErAc@l@ML@j@O\\Sj@g@^u@Tu@fBaFBOCKYMy@WWa@]_Aq@{BYw@_@q@_@a@y@_@oAKImAU{@@m@Fg@ZyAX]j@[d@?lAT`Ap@`@l@X`AVfCPrAPt@ZhA\\t@~@xAFNLJv@VlAPn@IZBNROl@Qz@Mf@[z@IXaAdC_ArB]d@EJATVp@Dx@Kd@BHf@p@BN]hAgAvCy@dBSbAm@|Ag@lCK~@yAvFc@tBSdA[|B@XJVNP|A`Bv@j@v@TXJl@d@`@p@f@p@Tt@Jf@JlAGbASrAu@|Cs@nDEz@N~@Tn@hAxAr@t@hAhAlAr@n@n@bAn@Vf@Fp@a@bBY|@?FIHWH_@^k@`AOFe@^i@Bc@NUd@KfB?^F`@GX}@fAgAzAWz@_@j@UVg@ZuA`BwBzBoBpCQh@KDWRORMF"
+    }
   }
 ]
